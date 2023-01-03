@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
 
   public class strings {
 

@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Data;
 using System.IO;
-using dn_lib;
-using dn_lib.db;
+using yn_lib;
+using yn_lib.db;
 
 namespace deepanotes
 {
@@ -273,7 +273,7 @@ namespace deepanotes
 
       // aggiorno l'indice      
       if(it.changed) {
-        it.dt_upd = dn_lib.tools.sys.without_ms(DateTime.Now);
+        it.dt_upd = yn_lib.tools.sys.without_ms(DateTime.Now);
         it.save_into_folder(core, src);
         db_conn.exec(core.parse_query("lib-notes.set-task-upd"
           , new string[,] { { "i_lwt", it.lwt.ToString("yyyy-MM-dd HH:mm:ss") }, { "dt_upd", it.dt_upd.Value.ToString("yyyy-MM-dd HH:mm:ss") }, { "task_id", task_id.ToString() } }));

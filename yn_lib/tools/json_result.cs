@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace dn_lib.tools
+namespace yn_lib.tools
 {
   /// <summary>
   /// Summary description for json_result

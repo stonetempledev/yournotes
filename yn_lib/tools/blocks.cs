@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using dn_lib.xml;
+using yn_lib.xml;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
 
   public class blocks {
     protected nano_doc _doc = new nano_doc("<root/>");

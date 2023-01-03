@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.IO;
-using dn_lib.db;
+using yn_lib.db;
 
-namespace dn_client
+namespace yn_client
 {
   public class fi
   {

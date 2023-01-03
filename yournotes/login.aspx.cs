@@ -6,8 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Security;
 using System.Data;
-using dn_lib.tools;
-using dn_lib.db;
+using yn_lib.tools;
+using yn_lib.db;
 
 public partial class login : tl_page {
   protected void Page_Load (object sender, EventArgs e) {

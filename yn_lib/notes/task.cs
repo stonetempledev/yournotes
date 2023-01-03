@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-using dn_lib.tools;
+using yn_lib.tools;
 
-namespace dn_lib {
+namespace yn_lib {
   public class task {
     public long id { get; set; }
     public int synch_folder_id { get; set; }
@@ -72,7 +72,7 @@ namespace dn_lib {
           string p = parts[i]; if (p == "task") break;
 
           // date
-          if (dn_lib.tools.strings.is_int(p) && (p.Length == 6 || p.Length == 8)) {
+          if (yn_lib.tools.strings.is_int(p) && (p.Length == 6 || p.Length == 8)) {
             if (!dt.HasValue) parse_date(p, out dt); 
             else if (!dt2.HasValue) parse_date(p, out dt2);
             if (dt.HasValue && dt2.HasValue && dt2 < dt) { DateTime tmp = dt2.Value; dt = dt2; dt2 = tmp; }

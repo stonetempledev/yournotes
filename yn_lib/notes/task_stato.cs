@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace dn_lib {
+namespace yn_lib {
   public class task_stato {
 
     public string stato { get; set; }

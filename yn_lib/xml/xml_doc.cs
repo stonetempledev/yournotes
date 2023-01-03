@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Xml;
 using System.Linq;
 
-namespace dn_lib.xml {
+namespace yn_lib.xml {
 
   // xml_doc
   public class xml_doc : IDisposable {

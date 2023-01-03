@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data;
-using dn_lib.db;
+using yn_lib.db;
 
-namespace dn_client {
+namespace yn_client {
   public class db_conn {
     public enum conn_type { PRODUZIONE, TEST, SVILUPPO, LABORATORIO }
     public int id_conn { get; set; }

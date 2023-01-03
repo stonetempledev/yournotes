@@ -6,9 +6,9 @@ using System.Data.Common;
 using System.Xml;
 using System.Linq;
 using System.Text;
-using dn_lib.tools;
+using yn_lib.tools;
 
-namespace dn_lib.db {
+namespace yn_lib.db {
   public enum dbType { none, oledb, odbc, sqlserver, mysql, access, xml }
 
   public enum fieldType {
@@ -29,7 +29,7 @@ namespace dn_lib.db {
 
     public DbConnection db_conn { get { return _conn; } }
 
-    public db_provider(dn_lib.tools.config.conn cnn) :
+    public db_provider(yn_lib.tools.config.conn cnn) :
       this(cnn.name, cnn.conn_string, cnn.provider, cnn.timeout > 0 ? cnn.timeout : -1, cnn.des, cnn.date_format) { }
 
     public db_provider(string name, string conn_string, string prov_name, int timeout = -1, string des = ""
@@ -45,7 +45,7 @@ namespace dn_lib.db {
       }
     }
 
-    public static db_provider create_provider(dn_lib.tools.config.conn cnn) {
+    public static db_provider create_provider(yn_lib.tools.config.conn cnn) {
       return create_provider(cnn.name, cnn.conn_string, cnn.provider, cnn.timeout > 0 ? cnn.timeout : -1, cnn.des, cnn.date_format, cnn.key, cnn.sql_key);
     }
 

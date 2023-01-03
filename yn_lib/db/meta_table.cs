@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Xml;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class meta_table
   {
@@ -55,7 +55,7 @@ namespace dn_lib.db
     public align_codes align_code { get { return _align_code; } }
     public XmlNode node { get { return _node; } }
     public List<string> flds_info() { return _fields_info.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToList(); }
-    public string attr(string name_attr) { return dn_lib.xml.xml_node.node_val(_node, name_attr); }
+    public string attr(string name_attr) { return yn_lib.xml.xml_node.node_val(_node, name_attr); }
     public string first_fld_info() { return string.IsNullOrEmpty(_fields_info) ? "" : _fields_info.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries)[0]; }
   }
 }

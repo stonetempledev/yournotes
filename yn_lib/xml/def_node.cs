@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace dn_lib.xml {
+namespace yn_lib.xml {
   public class def_node {
     protected string _name, _text;
     protected Dictionary<string, string> _attrs = null;

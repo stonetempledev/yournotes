@@ -13,9 +13,9 @@ using System.Web.UI.WebControls.WebParts;
 using System.Xml;
 using System.Text;
 using System.IO;
-using dn_lib.db;
-using dn_lib.tools;
-using dn_lib.xml;
+using yn_lib.db;
+using yn_lib.tools;
+using yn_lib.xml;
 
 public partial class _default : tl_page {
 

@@ -1,4 +1,4 @@
-﻿namespace dn_client {
+﻿namespace yn_client {
   partial class frm_main {
     /// <summary>
     /// Required designer variable.
@@ -37,8 +37,8 @@
       this.chk_passo = new System.Windows.Forms.CheckBox();
       this.rt_main = new System.Windows.Forms.RichTextBox();
       this.tab_impostazioni = new System.Windows.Forms.TabPage();
-      this.pb_close = new System.Windows.Forms.PictureBox();
       this.tab_comandi = new System.Windows.Forms.TabPage();
+      this.pb_close = new System.Windows.Forms.PictureBox();
       this.ss_main.SuspendLayout();
       this.tab_main.SuspendLayout();
       this.tab_eventi.SuspendLayout();
@@ -49,15 +49,15 @@
       // 
       this.lbl_title.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-      this.lbl_title.BackColor = System.Drawing.Color.DimGray;
+      this.lbl_title.BackColor = System.Drawing.Color.LightGray;
       this.lbl_title.Cursor = System.Windows.Forms.Cursors.Hand;
       this.lbl_title.Font = new System.Drawing.Font("Segoe UI Light", 16F);
-      this.lbl_title.ForeColor = System.Drawing.Color.Tomato;
+      this.lbl_title.ForeColor = System.Drawing.Color.DodgerBlue;
       this.lbl_title.Location = new System.Drawing.Point(0, 0);
       this.lbl_title.Name = "lbl_title";
-      this.lbl_title.Size = new System.Drawing.Size(815, 33);
+      this.lbl_title.Size = new System.Drawing.Size(815, 32);
       this.lbl_title.TabIndex = 0;
-      this.lbl_title.Text = "Deepa Notes Pannello";
+      this.lbl_title.Text = "Your Notes Panel";
       this.lbl_title.DoubleClick += new System.EventHandler(this.lbl_title_DoubleClick);
       this.lbl_title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbl_title_MouseDown);
       this.lbl_title.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbl_title_MouseMove);
@@ -176,19 +176,6 @@
       this.tab_impostazioni.Text = "Impostazioni";
       this.tab_impostazioni.UseVisualStyleBackColor = true;
       // 
-      // pb_close
-      // 
-      this.pb_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-      this.pb_close.BackColor = System.Drawing.Color.DimGray;
-      this.pb_close.Cursor = System.Windows.Forms.Cursors.Hand;
-      this.pb_close.Image = ((System.Drawing.Image)(resources.GetObject("pb_close.Image")));
-      this.pb_close.Location = new System.Drawing.Point(783, 0);
-      this.pb_close.Name = "pb_close";
-      this.pb_close.Size = new System.Drawing.Size(32, 32);
-      this.pb_close.TabIndex = 42;
-      this.pb_close.TabStop = false;
-      this.pb_close.Click += new System.EventHandler(this.pb_close_Click);
-      // 
       // tab_comandi
       // 
       this.tab_comandi.Location = new System.Drawing.Point(4, 26);
@@ -197,6 +184,19 @@
       this.tab_comandi.TabIndex = 3;
       this.tab_comandi.Text = "Comandi";
       this.tab_comandi.UseVisualStyleBackColor = true;
+      // 
+      // pb_close
+      // 
+      this.pb_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+      this.pb_close.BackColor = System.Drawing.Color.LightGray;
+      this.pb_close.Cursor = System.Windows.Forms.Cursors.Hand;
+      this.pb_close.Image = ((System.Drawing.Image)(resources.GetObject("pb_close.Image")));
+      this.pb_close.Location = new System.Drawing.Point(783, 0);
+      this.pb_close.Name = "pb_close";
+      this.pb_close.Size = new System.Drawing.Size(32, 32);
+      this.pb_close.TabIndex = 42;
+      this.pb_close.TabStop = false;
+      this.pb_close.Click += new System.EventHandler(this.pb_close_Click);
       // 
       // frm_main
       // 

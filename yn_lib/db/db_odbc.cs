@@ -5,9 +5,9 @@ using System.Web;
 using System.Data;
 using System.Data.Common;
 using System.Data.Odbc;
-using dn_lib.tools;
+using yn_lib.tools;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class db_odbc : db_provider
   {

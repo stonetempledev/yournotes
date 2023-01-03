@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using dn_lib.tools;
+using yn_lib.tools;
 using deepanotes;
 
 public class tl_master : System.Web.UI.MasterPage

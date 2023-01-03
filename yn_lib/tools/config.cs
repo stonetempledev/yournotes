@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Data;
-using dn_lib.xml;
-using dn_lib.db;
+using yn_lib.xml;
+using yn_lib.db;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
   public class config {
 
     #region structure

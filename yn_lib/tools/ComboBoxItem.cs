@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
   public class ComboboxItem {
     public string Text { get; set; }
     public object Value { get; set; }

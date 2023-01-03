@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace dn_lib {
+namespace yn_lib {
   public class free_label {
 
     public string free_txt { get; set; }

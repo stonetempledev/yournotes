@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Xml;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class meta_link
   {

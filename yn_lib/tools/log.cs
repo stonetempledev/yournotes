@@ -10,7 +10,7 @@ using log4net.Repository;
 //Here is the once-per-application setup information
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
-namespace dn_lib.tools
+namespace yn_lib.tools
 {
   public class log
   {

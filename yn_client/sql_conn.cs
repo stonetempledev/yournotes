@@ -5,7 +5,7 @@ using System.Text;
 using System.Data;
 using System.Data.Common;
 
-namespace dn_client {
+namespace yn_client {
   public class sql_conn {
 
     public DbConnection conn { get; protected set; }

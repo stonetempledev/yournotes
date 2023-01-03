@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using dn_lib.xml;
-using dn_lib.tools;
+using yn_lib.xml;
+using yn_lib.tools;
 
-namespace dn_lib
+namespace yn_lib
 {
   public class doc_task : xml_doc
   {

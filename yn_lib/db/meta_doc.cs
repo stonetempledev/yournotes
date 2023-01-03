@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
-using dn_lib.tools;
-using dn_lib.xml;
+using yn_lib.tools;
+using yn_lib.xml;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class meta_doc {
     public enum table_type { none, data, temporanea, sistema }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class schema_field
   {

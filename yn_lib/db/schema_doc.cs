@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Xml;
 using System.Text.RegularExpressions;
-using dn_lib.xml;
-using dn_lib.tools;
+using yn_lib.xml;
+using yn_lib.tools;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class schema_doc
   {

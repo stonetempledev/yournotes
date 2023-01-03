@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data;
-using dn_lib.db;
-using dn_lib.tools;
+using yn_lib.db;
+using yn_lib.tools;
 
-namespace dn_lib
+namespace yn_lib
 {
   public class setting
   {

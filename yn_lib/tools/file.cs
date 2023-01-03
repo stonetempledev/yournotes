@@ -6,7 +6,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.ComponentModel;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
   public class file {
     protected string _path;
     public file (string path) { _path = path; }

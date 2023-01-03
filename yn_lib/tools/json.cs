@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace dn_lib.tools
+namespace yn_lib.tools
 {
   public class json
   {

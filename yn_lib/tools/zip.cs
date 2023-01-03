@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
   public class zip {
 
     public static GZipStream open_zip(string zip_file) { 

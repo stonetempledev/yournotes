@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data;
-using dn_lib.db;
+using yn_lib.db;
 
-namespace dn_lib {
+namespace yn_lib {
   public class synch_setting {
 
     public string name { get; set; }

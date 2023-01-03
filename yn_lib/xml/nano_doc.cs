@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace dn_lib.xml {
+namespace yn_lib.xml {
   public class nano_base {
     protected static bool _is_space (char c) { return c == ' ' || c == '\t' || c == '\n' || c == '\r'; }
 

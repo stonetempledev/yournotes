@@ -5,11 +5,11 @@ using System.Web;
 using System.IO;
 using System.Data;
 using System.Data.SqlClient;
-using dn_lib;
-using dn_lib.db;
-using dn_lib.tools;
+using yn_lib;
+using yn_lib.db;
+using yn_lib.tools;
 
-namespace dn_lib
+namespace yn_lib
 {
   public class synch : bo
   {

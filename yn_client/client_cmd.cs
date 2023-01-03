@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dn_client
+namespace yn_client
 {
   public class client_cmd
   {

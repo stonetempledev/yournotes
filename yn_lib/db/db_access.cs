@@ -5,10 +5,10 @@ using System.Web;
 using System.Data;
 using System.Data.OleDb;
 using System.Xml;
-using dn_lib.tools;
-using dn_lib.xml;
+using yn_lib.tools;
+using yn_lib.xml;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class db_access : db_ole
   {

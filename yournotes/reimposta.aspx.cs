@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Security;
 using System.Data;
-using dn_lib.tools;
+using yn_lib.tools;
 
 public partial class reimposta : tl_page {
   protected string _nome, _mail;

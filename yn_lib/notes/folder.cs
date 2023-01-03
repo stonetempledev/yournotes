@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace dn_lib {
+namespace yn_lib {
   public class folder {
     public int synch_folder_id { get; set; }
     public int folder_id { get; set; }

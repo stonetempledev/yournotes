@@ -6,10 +6,10 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Xml;
-using dn_lib.xml;
-using dn_lib.tools;
+using yn_lib.xml;
+using yn_lib.tools;
 
-namespace dn_lib.db
+namespace yn_lib.db
 {
   public class db_sqlserver : db_provider
   {

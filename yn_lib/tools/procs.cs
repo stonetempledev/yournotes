@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
-namespace dn_lib.tools {
+namespace yn_lib.tools {
   public class procs {
     public static string cmd_proc(string cmd, string argv) {
 

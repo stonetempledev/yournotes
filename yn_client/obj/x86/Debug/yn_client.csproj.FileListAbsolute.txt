@@ -13,10 +13,10 @@ C:\my\dk\prjs\yournotes\yn_client\bin\Debug\yn_lib.pdb
 C:\my\dk\prjs\yournotes\yn_client\bin\Debug\log4net.xml
 C:\my\dk\prjs\yournotes\yn_client\bin\Debug\Newtonsoft.Json.xml
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.csprojAssemblyReference.cache
-C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\dn_client.frm_main.resources
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.Properties.Resources.resources
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.csproj.GenerateResource.cache
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.csproj.CoreCompileInputs.cache
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.csproj.CopyComplete
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.exe
 C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.pdb
+C:\my\dk\prjs\yournotes\yn_client\obj\x86\Debug\yn_client.frm_main.resources

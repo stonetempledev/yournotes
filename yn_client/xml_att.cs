@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using dn_lib.xml;
+using yn_lib.xml;
 using System.IO;
 
-namespace dn_client
+namespace yn_client
 {
   public class xml_att : xml_doc
   {
