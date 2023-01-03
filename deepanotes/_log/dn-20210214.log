@@ -1,0 +1,1121 @@
+2021-02-14 18:11:01,512 [6] INFO dn_lib.tools.log - reload core
+2021-02-14 18:11:01,565 [6] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:01,568 [6] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:01,576 [6] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:01,586 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:01,587 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:01,595 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:01,606 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:01,607 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:01,608 [6] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:01,615 [6] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:01,617 [6] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:01,618 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:01,619 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:01,620 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:01,622 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:01,622 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:01,623 [6] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:01,624 [6] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:01,630 [6] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:01,632 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:01,633 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:01,634 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:01,635 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:01,636 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:01,637 [6] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:01,646 [6] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:07,106 [13] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:07,107 [13] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,107 [13] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,108 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,109 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,109 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,110 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,110 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,111 [13] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,111 [13] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,112 [13] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,112 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,112 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,113 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,113 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,113 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,114 [13] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,114 [13] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,114 [13] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,115 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,115 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,116 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,116 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,117 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,118 [13] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,118 [13] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:07,178 [11] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:07,178 [11] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,179 [11] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,180 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,181 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,181 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,182 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,183 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,184 [11] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,185 [11] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,185 [11] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,185 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,186 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,187 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,187 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,188 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,190 [11] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,191 [11] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,192 [11] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,192 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,192 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,193 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,194 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,194 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,195 [11] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,196 [11] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:07,260 [9] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:07,261 [9] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,262 [9] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,262 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,263 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,264 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,265 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,265 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,266 [9] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,267 [9] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,268 [9] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,269 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,269 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,270 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,270 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,271 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,271 [9] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,272 [9] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,273 [9] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,273 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,274 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,274 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,275 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,275 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,276 [9] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,276 [9] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:07,311 [6] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:07,312 [6] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,313 [6] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,313 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,315 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,315 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,316 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,317 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,319 [6] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,319 [6] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,320 [6] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,321 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,321 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,322 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,323 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,323 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,324 [6] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,324 [6] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:07,325 [6] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:07,326 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:07,326 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:07,327 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:07,327 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:07,328 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:07,328 [6] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:07,339 [6] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:07,365 [6] DEBUG dn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2021-02-14 18:11:07,377 [6] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2021-02-14 18:11:07,387 [6] DEBUG dn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2021-02-14 18:11:07,412 [6] DEBUG dn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2021-02-14 18:11:07,423 [6] DEBUG dn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when t.dt_ins > t.dt_upd then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1 
+2021-02-14 18:11:07,454 [6] DEBUG dn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2021-02-14 18:11:07,472 [6] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2021-02-14 18:11:07,574 [6] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2021-02-14 18:11:07,578 [6] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2021-02-14 18:11:07,580 [6] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2021-02-14 18:11:13,597 [9] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:13,599 [9] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,600 [9] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,601 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,602 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,603 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,604 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,605 [9] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,605 [9] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,606 [9] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,607 [9] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,607 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,608 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,609 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,609 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,610 [9] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,611 [9] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,611 [9] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,611 [9] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,613 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,613 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,613 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,614 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,614 [9] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,616 [9] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,616 [9] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:13,632 [6] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:13,633 [6] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,634 [6] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,635 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,636 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,636 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,637 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,638 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,638 [6] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,639 [6] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,639 [6] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,640 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,640 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,641 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,641 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,641 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,641 [6] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,642 [6] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,642 [6] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,644 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,644 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,644 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,644 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,645 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,645 [6] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,646 [6] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:13,658 [13] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:13,659 [13] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,659 [13] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,660 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,661 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,661 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,662 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,662 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,663 [13] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,663 [13] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,664 [13] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,665 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,665 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,666 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,666 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,667 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,667 [13] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,667 [13] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:13,668 [13] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:13,668 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:13,669 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:13,669 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:13,670 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:13,670 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:13,671 [13] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:13,671 [13] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:14,227 [11] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:14,228 [11] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:14,228 [11] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:14,230 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:14,231 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:14,232 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:14,233 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:14,234 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:14,235 [11] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:14,235 [11] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:14,236 [11] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:14,237 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:14,237 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:14,238 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:14,239 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:14,239 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:14,240 [11] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:14,241 [11] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:14,241 [11] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:14,242 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:14,242 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:14,243 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:14,244 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:14,245 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:14,245 [11] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:14,246 [11] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:14,298 [11] DEBUG dn_lib.tools.log - SQL: select distinct lower(nome) as nome from users
+2021-02-14 18:11:14,312 [11] DEBUG dn_lib.tools.log - SQL: select free_txt, stato, priorita, tipo, stima, (case when [default] = 1 then '1' else '0' end) as [default]
+        from dn_task_free_labels 
+2021-02-14 18:11:14,316 [11] DEBUG dn_lib.tools.log - SQL: select file_name, type_info from dn_files_info
+2021-02-14 18:11:14,319 [11] DEBUG dn_lib.tools.log - SQL: select extension, des_extension, open_comment, close_comment, type_content from dn_files_types
+2021-02-14 18:11:14,321 [11] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-files')
+2021-02-14 18:11:14,323 [11] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-folders')
+2021-02-14 18:11:14,324 [11] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-lwt')
+2021-02-14 18:11:14,326 [11] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:11:14,332 [11] DEBUG dn_lib.tools.log - elenco cartelle da sincronizzare
+2021-02-14 18:11:14,333 [11] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:11:14,334 [11] DEBUG dn_lib.tools.log -    - cartella di sincronizzazione 'dipa notess' - Deepa Notes, path: C:\root\todd\_test\dn
+2021-02-14 18:11:14,336 [11] DEBUG dn_lib.tools.log - SQL: update dn_folders set readed = null;
+      update dn_files set readed = null;
+      update dn_tasks set readed = null;
+2021-02-14 18:11:14,342 [11] DEBUG dn_lib.tools.log - elaboro la cartella C:\root\todd\_test\dn...
+2021-02-14 18:11:14,343 [11] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @content_lwt varchar(25);
+      select top 1 @id = file_id from dn_files where synch_folder_id = 1 and folder_id is null and file_name = '20100101.orcho.task.txt';
+      if(@id is null)
+      begin
+        insert into dn_files (synch_folder_id, folder_id, file_name, extension, readed, dt_ins, dt_upd)
+          values (1, null, '20100101.orcho.task.txt', '.txt', 1, convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:51', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_files set readed = 1 where file_id = @id;
+       set ROWCOUNT 0;
+       update dn_files set dt_ins = convert(datetime, '2021-02-14 18:10:34', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120) 
+        where file_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:34', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @content_lwt = convert(varchar, dt_upd, 120) from dn_files_contents where file_id = @id;
+      end
+      select @id, @tp, @cc, @content_lwt;
+2021-02-14 18:11:14,352 [11] DEBUG dn_lib.tools.log - aggiunto file al database: C:\root\todd\_test\dn\20100101.orcho.task.txt
+2021-02-14 18:11:14,359 [11] DEBUG dn_lib.tools.log - SQL: delete from dn_files_contents where file_id = 4335;
+        insert into dn_files_contents (file_id, extension, content, dt_ins, dt_upd)
+          values (4335, '.txt', @content, convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:51', 120));
+2021-02-14 18:11:14,366 [11] DEBUG dn_lib.tools.log - salvato contenuto file nel database: C:\root\todd\_test\dn\20100101.orcho.task.txt
+2021-02-14 18:11:14,371 [11] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @notes_lwt varchar(25);
+      select top 1 @id = task_id from dn_tasks where isnull(folder_id, 0) = 0 and isnull(file_id, 0) = 4335;
+      if(@id is null)
+      begin
+        insert into dn_tasks (synch_folder_id, folder_id, file_id, title, [user], dt_ins, dt_upd, readed, stato, priorita, tipo, stima, dt_index)
+          values (1, null, 4335, left('orcho', 150)
+            , NULL, convert(datetime, '2010-01-01 00:00:00', 120), NULL, 1
+            , NULL, NULL, NULL, NULL, NULL);
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_tasks set readed = 1 where task_id = @id;
+       set ROWCOUNT 0;
+       update dn_tasks set dt_ins = convert(datetime, '2010-01-01 00:00:00', 120), dt_upd = NULL
+         , title = left('orcho', 150), [user] = NULL
+         , stato = NULL, priorita = NULL
+         , tipo = NULL, stima = NULL, dt_index = NULL
+        where task_id = @id
+         and (isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2010-01-01 00:00:00', 120), getdate()) 
+          or isnull(dt_upd, getdate()) < isnull(NULL, getdate())
+          or isnull(title, '') <> isnull('orcho', '') or isnull([user], '') <> isnull(NULL, '') 
+          or isnull(stato, '') <> isnull(NULL, '') or isnull(priorita, '') <> isnull(NULL, '') 
+          or isnull(tipo, '') <> isnull(NULL, '') or isnull(stima, '') <> isnull(NULL, ''))
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @notes_lwt = convert(varchar, dt_upd, 120) from dn_tasks_notes where task_id = @id;
+      end
+      select @id, @tp, @cc, @notes_lwt;
+2021-02-14 18:11:14,378 [11] DEBUG dn_lib.tools.log - inserito task nel database: C:\root\todd\_test\dn\orcho
+2021-02-14 18:11:14,380 [11] DEBUG dn_lib.tools.log - SQL: delete from dn_tasks_notes where task_id = 1460;
+      insert into dn_tasks_notes (task_id, file_id, content, dt_ins, dt_upd)
+        values (1460, 4335, @content
+          , convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:51', 120));
+2021-02-14 18:11:14,383 [11] DEBUG dn_lib.tools.log - salvate le note del task nel database: C:\root\todd\_test\dn\20100101.orcho.task.txt
+2021-02-14 18:11:14,385 [11] DEBUG dn_lib.tools.log - trasformazione task file in task folder: C:\root\todd\_test\dn\20100101.orcho.task.txt
+2021-02-14 18:11:14,386 [11] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int;
+      select top 1 @id = folder_id from dn_folders 
+       where synch_folder_id = 1 and parent_id is null 
+        and folder_name = '20100101.orcho.task';
+      if(@id is null)
+      begin
+        insert into dn_folders (synch_folder_id, parent_id, folder_name, readed, dt_ins, dt_upd)
+          values (1, null, '20100101.orcho.task', 1, convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:34', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else
+      begin
+       update dn_folders set readed = 1 where folder_id = @id;
+       set ROWCOUNT 0;
+       update dn_folders set dt_ins = convert(datetime, '2021-02-14 18:10:34', 120), dt_upd = convert(datetime, '2021-02-14 18:10:34', 120) 
+        where folder_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:34', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:34', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+      end
+      select @id, @tp, @cc;
+2021-02-14 18:11:14,390 [11] DEBUG dn_lib.tools.log - creato folder: C:\root\todd\_test\dn\20100101.orcho.task
+2021-02-14 18:11:14,392 [11] DEBUG dn_lib.tools.log - SQL: update dn_files set synch_folder_id = 1, folder_id = 1839, file_name = 'i.txt', dt_upd = getdate()
+        where file_id = 4335;
+      
+2021-02-14 18:11:14,396 [11] DEBUG dn_lib.tools.log - SQL: update dn_tasks set dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120), folder_id = 1839, file_id = null
+        where task_id = 1460;
+2021-02-14 18:11:14,399 [11] DEBUG dn_lib.tools.log - spostato file da: C:\root\todd\_test\dn\20100101.orcho.task.txt, a:C:\root\todd\_test\dn\20100101.orcho.task\i.txt
+2021-02-14 18:11:14,400 [11] DEBUG dn_lib.tools.log - SQL: delete from dn_tasks_notes where task_id = 1460;
+      insert into dn_tasks_notes (task_id, file_id, content, dt_ins, dt_upd)
+        values (1460, 4335, @content
+          , convert(datetime, convert(varchar, getdate(), 120), 120), convert(datetime, convert(varchar, getdate(), 120), 120));
+      update dn_tasks set dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120) where task_id = 1460;
+2021-02-14 18:11:14,404 [11] DEBUG dn_lib.tools.log - salvate le note del task: C:\root\todd\_test\dn\20100101.orcho.task
+2021-02-14 18:11:14,413 [11] DEBUG dn_lib.tools.log - rinominato folder: C:\root\todd\_test\dn\20100101.orcho.task, in: C:\root\todd\_test\dn\orcho.task
+2021-02-14 18:11:14,414 [11] DEBUG dn_lib.tools.log - SQL: update dn_folders set folder_name = 'orcho.task', dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+        where folder_id = 1839
+2021-02-14 18:11:14,421 [11] DEBUG dn_lib.tools.log - salvato index doc: C:\root\todd\_test\dn\orcho.task\__i.xml
+2021-02-14 18:11:14,422 [11] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @notes_lwt varchar(25);
+      select top 1 @id = task_id from dn_tasks where isnull(folder_id, 0) = 1839 and isnull(file_id, 0) = 0;
+      if(@id is null)
+      begin
+        insert into dn_tasks (synch_folder_id, folder_id, file_id, title, [user], dt_ins, dt_upd, readed, stato, priorita, tipo, stima, dt_index)
+          values (1, 1839, null, left('orcho', 150)
+            , NULL, convert(datetime, '2010-01-01 00:00:00', 120), convert(datetime, '2021-02-14 18:10:51', 120), 1
+            , NULL, NULL, NULL, NULL, convert(datetime, '2021-02-14 18:11:14', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_tasks set readed = 1 where task_id = @id;
+       set ROWCOUNT 0;
+       update dn_tasks set dt_ins = convert(datetime, '2010-01-01 00:00:00', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120)
+         , title = left('orcho', 150), [user] = NULL
+         , stato = NULL, priorita = NULL
+         , tipo = NULL, stima = NULL, dt_index = convert(datetime, '2021-02-14 18:11:14', 120)
+        where task_id = @id
+         and (isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2010-01-01 00:00:00', 120), getdate()) 
+          or isnull(dt_upd, getdate()) < isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate())
+          or isnull(title, '') <> isnull('orcho', '') or isnull([user], '') <> isnull(NULL, '') 
+          or isnull(stato, '') <> isnull(NULL, '') or isnull(priorita, '') <> isnull(NULL, '') 
+          or isnull(tipo, '') <> isnull(NULL, '') or isnull(stima, '') <> isnull(NULL, ''))
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @notes_lwt = convert(varchar, dt_upd, 120) from dn_tasks_notes where task_id = @id;
+      end
+      select @id, @tp, @cc, @notes_lwt;
+2021-02-14 18:11:14,428 [11] DEBUG dn_lib.tools.log - SQL: declare @cc_files int; declare @cc_folders int;
+      select @cc_files = (select count(*) from dn_files where readed is null) 
+      select @cc_folders = (select count(*) from dn_folders where readed is null)
+      
+      delete from dn_folders where readed is null;
+      delete from dn_files where readed is null;
+      delete fc from dn_files_contents fc
+       where not exists (select top 1 1 from dn_files where file_id = fc.file_id);
+      delete from dn_tasks where readed is null;
+      delete tn from dn_tasks_notes tn
+       where not exists (select top 1 1 from dn_tasks where task_id = tn.task_id);
+      select @cc_files, @cc_folders;
+2021-02-14 18:11:14,436 [11] DEBUG dn_lib.tools.log - cancellati dal database: 1 files
+2021-02-14 18:11:14,437 [11] DEBUG dn_lib.tools.log - cancellati dal database: 1 folders
+2021-02-14 18:11:14,438 [11] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-files')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-files', '1')
+        else update users_cache set var_value = substring('1', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-files'
+2021-02-14 18:11:14,442 [11] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-folders')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-folders', '0')
+        else update users_cache set var_value = substring('0', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-folders'
+2021-02-14 18:11:14,447 [11] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-lwt')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-lwt', '2021/02/14 18:10:51')
+        else update users_cache set var_value = substring('2021/02/14 18:10:51', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-lwt'
+2021-02-14 18:11:14,449 [11] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-last')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-last', '2021/02/14 18:11:14')
+        else update users_cache set var_value = substring('2021/02/14 18:11:14', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-last'
+2021-02-14 18:11:19,174 [6] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:19,175 [6] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,176 [6] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,177 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,177 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,178 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,179 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,180 [6] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,180 [6] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,180 [6] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,181 [6] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,182 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,182 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,183 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,183 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,184 [6] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,184 [6] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,184 [6] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,185 [6] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,185 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,186 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,186 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,187 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,187 [6] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,187 [6] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,188 [6] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:19,201 [13] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:19,202 [13] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,202 [13] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,202 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,203 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,203 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,204 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,205 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,205 [13] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,206 [13] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,206 [13] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,207 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,207 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,208 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,208 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,209 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,209 [13] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,210 [13] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,210 [13] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,211 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,211 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,212 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,212 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,213 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,213 [13] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,214 [13] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:19,233 [11] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:19,234 [11] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,235 [11] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,236 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,237 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,237 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,238 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,239 [11] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,240 [11] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,240 [11] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,240 [11] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,241 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,242 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,243 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,243 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,244 [11] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,245 [11] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,245 [11] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,246 [11] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,247 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,247 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,248 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,248 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,249 [11] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,249 [11] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,250 [11] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:19,801 [7] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:19,803 [7] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,804 [7] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,806 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,807 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,809 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,810 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,812 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,813 [7] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,814 [7] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,815 [7] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,815 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,816 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,817 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,818 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,818 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,818 [7] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,819 [7] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:19,820 [7] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:19,820 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:19,821 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:19,822 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:19,822 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:19,823 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:19,823 [7] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:19,824 [7] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:19,834 [7] DEBUG dn_lib.tools.log - SQL: select distinct lower(nome) as nome from users
+2021-02-14 18:11:19,835 [7] DEBUG dn_lib.tools.log - SQL: select free_txt, stato, priorita, tipo, stima, (case when [default] = 1 then '1' else '0' end) as [default]
+        from dn_task_free_labels 
+2021-02-14 18:11:19,836 [7] DEBUG dn_lib.tools.log - SQL: select file_name, type_info from dn_files_info
+2021-02-14 18:11:19,837 [7] DEBUG dn_lib.tools.log - SQL: select extension, des_extension, open_comment, close_comment, type_content from dn_files_types
+2021-02-14 18:11:19,838 [7] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-files')
+2021-02-14 18:11:19,839 [7] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-folders')
+2021-02-14 18:11:19,840 [7] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-lwt')
+2021-02-14 18:11:19,841 [7] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:11:19,843 [7] DEBUG dn_lib.tools.log - elenco cartelle da sincronizzare
+2021-02-14 18:11:19,844 [7] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:11:19,845 [7] DEBUG dn_lib.tools.log -    - cartella di sincronizzazione 'dipa notess' - Deepa Notes, path: C:\root\todd\_test\dn
+2021-02-14 18:11:19,846 [7] DEBUG dn_lib.tools.log - SQL: update dn_folders set readed = null;
+      update dn_files set readed = null;
+      update dn_tasks set readed = null;
+2021-02-14 18:11:19,856 [7] DEBUG dn_lib.tools.log - elaboro la cartella C:\root\todd\_test\dn...
+2021-02-14 18:11:19,857 [7] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int;
+      select top 1 @id = folder_id from dn_folders 
+       where synch_folder_id = 1 and parent_id is null 
+        and folder_name = 'orcho.task';
+      if(@id is null)
+      begin
+        insert into dn_folders (synch_folder_id, parent_id, folder_name, readed, dt_ins, dt_upd)
+          values (1, null, 'orcho.task', 1, convert(datetime, '2021-02-14 18:11:14', 120), convert(datetime, '2021-02-14 18:11:14', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else
+      begin
+       update dn_folders set readed = 1 where folder_id = @id;
+       set ROWCOUNT 0;
+       update dn_folders set dt_ins = convert(datetime, '2021-02-14 18:11:14', 120), dt_upd = convert(datetime, '2021-02-14 18:11:14', 120) 
+        where folder_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:11:14', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:11:14', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+      end
+      select @id, @tp, @cc;
+2021-02-14 18:11:19,861 [7] DEBUG dn_lib.tools.log - aggiornato folder nel database: C:\root\todd\_test\dn\orcho.task
+2021-02-14 18:11:19,863 [7] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @notes_lwt varchar(25);
+      select top 1 @id = task_id from dn_tasks where isnull(folder_id, 0) = 1839 and isnull(file_id, 0) = 0;
+      if(@id is null)
+      begin
+        insert into dn_tasks (synch_folder_id, folder_id, file_id, title, [user], dt_ins, dt_upd, readed, stato, priorita, tipo, stima, dt_index)
+          values (1, 1839, null, left('orcho', 150)
+            , NULL, convert(datetime, '2010-01-01 00:00:00', 120), convert(datetime, '2021-02-14 18:10:51', 120), 1
+            , NULL, NULL, NULL, NULL, NULL);
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_tasks set readed = 1 where task_id = @id;
+       set ROWCOUNT 0;
+       update dn_tasks set dt_ins = convert(datetime, '2010-01-01 00:00:00', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120)
+         , title = left('orcho', 150), [user] = NULL
+         , stato = NULL, priorita = NULL
+         , tipo = NULL, stima = NULL, dt_index = NULL
+        where task_id = @id
+         and (isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2010-01-01 00:00:00', 120), getdate()) 
+          or isnull(dt_upd, getdate()) < isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate())
+          or isnull(title, '') <> isnull('orcho', '') or isnull([user], '') <> isnull(NULL, '') 
+          or isnull(stato, '') <> isnull(NULL, '') or isnull(priorita, '') <> isnull(NULL, '') 
+          or isnull(tipo, '') <> isnull(NULL, '') or isnull(stima, '') <> isnull(NULL, ''))
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @notes_lwt = convert(varchar, dt_upd, 120) from dn_tasks_notes where task_id = @id;
+      end
+      select @id, @tp, @cc, @notes_lwt;
+2021-02-14 18:11:19,869 [7] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @content_lwt varchar(25);
+      select top 1 @id = file_id from dn_files where synch_folder_id = 1 and folder_id = 1839 and file_name = 'i.txt';
+      if(@id is null)
+      begin
+        insert into dn_files (synch_folder_id, folder_id, file_name, extension, readed, dt_ins, dt_upd)
+          values (1, 1839, 'i.txt', '.txt', 1, convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:51', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_files set readed = 1 where file_id = @id;
+       set ROWCOUNT 0;
+       update dn_files set dt_ins = convert(datetime, '2021-02-14 18:10:34', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120) 
+        where file_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:34', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @content_lwt = convert(varchar, dt_upd, 120) from dn_files_contents where file_id = @id;
+      end
+      select @id, @tp, @cc, @content_lwt;
+2021-02-14 18:11:19,875 [7] DEBUG dn_lib.tools.log - aggiornato file nel database: C:\root\todd\_test\dn\orcho.task\i.txt
+2021-02-14 18:11:19,876 [7] DEBUG dn_lib.tools.log - SQL: update tt set tt.dt_upd = t2.max_dt
+         from dn_tasks tt
+         join ( select t.*
+          from (select dt.task_id, dt.folder_id, dt.dt_upd 
+            , (select max(dt_upd) from dn_files where folder_id = dt.folder_id) as max_dt
+          from dn_tasks dt where dt.folder_id is not null and dt.task_id = 1460) t
+          where t.max_dt is not null and t.dt_upd < t.max_dt ) t2 on t2.task_id = tt.task_id
+         where isnull(tt.dt_upd, 0) <> t2.max_dt;
+        select @@ROWCOUNT;
+2021-02-14 18:11:19,882 [7] DEBUG dn_lib.tools.log - SQL: declare @cc_files int; declare @cc_folders int;
+      select @cc_files = (select count(*) from dn_files where readed is null) 
+      select @cc_folders = (select count(*) from dn_folders where readed is null)
+      
+      delete from dn_folders where readed is null;
+      delete from dn_files where readed is null;
+      delete fc from dn_files_contents fc
+       where not exists (select top 1 1 from dn_files where file_id = fc.file_id);
+      delete from dn_tasks where readed is null;
+      delete tn from dn_tasks_notes tn
+       where not exists (select top 1 1 from dn_tasks where task_id = tn.task_id);
+      select @cc_files, @cc_folders;
+2021-02-14 18:11:19,884 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-files')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-files', '2')
+        else update users_cache set var_value = substring('2', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-files'
+2021-02-14 18:11:19,887 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-folders')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-folders', '1')
+        else update users_cache set var_value = substring('1', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-folders'
+2021-02-14 18:11:19,890 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-lwt')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-lwt', '2021/02/14 18:11:14')
+        else update users_cache set var_value = substring('2021/02/14 18:11:14', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-lwt'
+2021-02-14 18:11:19,893 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-last')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-last', '2021/02/14 18:11:19')
+        else update users_cache set var_value = substring('2021/02/14 18:11:19', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-last'
+2021-02-14 18:11:22,900 [7] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:22,901 [7] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,902 [7] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,903 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,904 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,905 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,906 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,906 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,906 [7] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,907 [7] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,908 [7] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,908 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,910 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,911 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,911 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,912 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,912 [7] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,912 [7] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,913 [7] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,913 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,914 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,915 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,915 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,916 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,916 [7] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,917 [7] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:22,931 [13] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:22,932 [13] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,933 [13] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,934 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,935 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,935 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,936 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,936 [13] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,937 [13] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,938 [13] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,938 [13] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,939 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,939 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,939 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,939 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,940 [13] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,941 [13] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,941 [13] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,942 [13] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,942 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,943 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,943 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,944 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,944 [13] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,945 [13] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,945 [13] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:22,958 [12] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:22,959 [12] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,960 [12] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,960 [12] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,960 [12] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,961 [12] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,962 [12] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,962 [12] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,963 [12] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,964 [12] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,965 [12] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,965 [12] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,966 [12] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,966 [12] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,967 [12] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,967 [12] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,968 [12] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,968 [12] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:22,969 [12] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:22,969 [12] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:22,970 [12] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:22,970 [12] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:22,971 [12] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:22,971 [12] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:22,972 [12] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:22,972 [12] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:23,527 [8] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:11:23,529 [8] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:23,531 [8] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:23,532 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:23,534 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:23,535 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:23,536 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:23,537 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:23,538 [8] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:23,539 [8] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:23,540 [8] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:23,540 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:23,541 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:23,542 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:23,543 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:23,543 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:23,544 [8] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:23,544 [8] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:11:23,545 [8] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:11:23,545 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:11:23,545 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:11:23,546 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:11:23,546 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:11:23,547 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:11:23,547 [8] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:11:23,548 [8] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:11:23,558 [8] DEBUG dn_lib.tools.log - SQL: select distinct lower(nome) as nome from users
+2021-02-14 18:11:23,560 [8] DEBUG dn_lib.tools.log - SQL: select free_txt, stato, priorita, tipo, stima, (case when [default] = 1 then '1' else '0' end) as [default]
+        from dn_task_free_labels 
+2021-02-14 18:11:23,561 [8] DEBUG dn_lib.tools.log - SQL: select file_name, type_info from dn_files_info
+2021-02-14 18:11:23,561 [8] DEBUG dn_lib.tools.log - SQL: select extension, des_extension, open_comment, close_comment, type_content from dn_files_types
+2021-02-14 18:11:23,562 [8] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-files')
+2021-02-14 18:11:23,563 [8] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-folders')
+2021-02-14 18:11:23,564 [8] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-lwt')
+2021-02-14 18:11:23,564 [8] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:11:23,566 [8] DEBUG dn_lib.tools.log - elenco cartelle da sincronizzare
+2021-02-14 18:11:23,566 [8] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:11:23,567 [8] DEBUG dn_lib.tools.log -    - cartella di sincronizzazione 'dipa notess' - Deepa Notes, path: C:\root\todd\_test\dn
+2021-02-14 18:11:23,569 [8] DEBUG dn_lib.tools.log - SQL: update dn_folders set readed = null;
+      update dn_files set readed = null;
+      update dn_tasks set readed = null;
+2021-02-14 18:11:23,571 [8] DEBUG dn_lib.tools.log - elaboro la cartella C:\root\todd\_test\dn...
+2021-02-14 18:11:23,572 [8] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int;
+      select top 1 @id = folder_id from dn_folders 
+       where synch_folder_id = 1 and parent_id is null 
+        and folder_name = 'orcho.task';
+      if(@id is null)
+      begin
+        insert into dn_folders (synch_folder_id, parent_id, folder_name, readed, dt_ins, dt_upd)
+          values (1, null, 'orcho.task', 1, convert(datetime, '2021-02-14 18:11:14', 120), convert(datetime, '2021-02-14 18:11:14', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else
+      begin
+       update dn_folders set readed = 1 where folder_id = @id;
+       set ROWCOUNT 0;
+       update dn_folders set dt_ins = convert(datetime, '2021-02-14 18:11:14', 120), dt_upd = convert(datetime, '2021-02-14 18:11:14', 120) 
+        where folder_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:11:14', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:11:14', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+      end
+      select @id, @tp, @cc;
+2021-02-14 18:11:23,574 [8] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @notes_lwt varchar(25);
+      select top 1 @id = task_id from dn_tasks where isnull(folder_id, 0) = 1839 and isnull(file_id, 0) = 0;
+      if(@id is null)
+      begin
+        insert into dn_tasks (synch_folder_id, folder_id, file_id, title, [user], dt_ins, dt_upd, readed, stato, priorita, tipo, stima, dt_index)
+          values (1, 1839, null, left('orcho', 150)
+            , NULL, convert(datetime, '2010-01-01 00:00:00', 120), convert(datetime, '2021-02-14 18:10:51', 120), 1
+            , NULL, NULL, NULL, NULL, NULL);
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_tasks set readed = 1 where task_id = @id;
+       set ROWCOUNT 0;
+       update dn_tasks set dt_ins = convert(datetime, '2010-01-01 00:00:00', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120)
+         , title = left('orcho', 150), [user] = NULL
+         , stato = NULL, priorita = NULL
+         , tipo = NULL, stima = NULL, dt_index = NULL
+        where task_id = @id
+         and (isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2010-01-01 00:00:00', 120), getdate()) 
+          or isnull(dt_upd, getdate()) < isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate())
+          or isnull(title, '') <> isnull('orcho', '') or isnull([user], '') <> isnull(NULL, '') 
+          or isnull(stato, '') <> isnull(NULL, '') or isnull(priorita, '') <> isnull(NULL, '') 
+          or isnull(tipo, '') <> isnull(NULL, '') or isnull(stima, '') <> isnull(NULL, ''))
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @notes_lwt = convert(varchar, dt_upd, 120) from dn_tasks_notes where task_id = @id;
+      end
+      select @id, @tp, @cc, @notes_lwt;
+2021-02-14 18:11:23,576 [8] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @content_lwt varchar(25);
+      select top 1 @id = file_id from dn_files where synch_folder_id = 1 and folder_id = 1839 and file_name = 'i.txt';
+      if(@id is null)
+      begin
+        insert into dn_files (synch_folder_id, folder_id, file_name, extension, readed, dt_ins, dt_upd)
+          values (1, 1839, 'i.txt', '.txt', 1, convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:51', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_files set readed = 1 where file_id = @id;
+       set ROWCOUNT 0;
+       update dn_files set dt_ins = convert(datetime, '2021-02-14 18:10:34', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120) 
+        where file_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:34', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @content_lwt = convert(varchar, dt_upd, 120) from dn_files_contents where file_id = @id;
+      end
+      select @id, @tp, @cc, @content_lwt;
+2021-02-14 18:11:23,577 [8] DEBUG dn_lib.tools.log - SQL: update tt set tt.dt_upd = t2.max_dt
+         from dn_tasks tt
+         join ( select t.*
+          from (select dt.task_id, dt.folder_id, dt.dt_upd 
+            , (select max(dt_upd) from dn_files where folder_id = dt.folder_id) as max_dt
+          from dn_tasks dt where dt.folder_id is not null and dt.task_id = 1460) t
+          where t.max_dt is not null and t.dt_upd < t.max_dt ) t2 on t2.task_id = tt.task_id
+         where isnull(tt.dt_upd, 0) <> t2.max_dt;
+        select @@ROWCOUNT;
+2021-02-14 18:11:23,578 [8] DEBUG dn_lib.tools.log - SQL: declare @cc_files int; declare @cc_folders int;
+      select @cc_files = (select count(*) from dn_files where readed is null) 
+      select @cc_folders = (select count(*) from dn_folders where readed is null)
+      
+      delete from dn_folders where readed is null;
+      delete from dn_files where readed is null;
+      delete fc from dn_files_contents fc
+       where not exists (select top 1 1 from dn_files where file_id = fc.file_id);
+      delete from dn_tasks where readed is null;
+      delete tn from dn_tasks_notes tn
+       where not exists (select top 1 1 from dn_tasks where task_id = tn.task_id);
+      select @cc_files, @cc_folders;
+2021-02-14 18:11:23,579 [8] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-files')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-files', '2')
+        else update users_cache set var_value = substring('2', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-files'
+2021-02-14 18:11:23,580 [8] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-folders')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-folders', '1')
+        else update users_cache set var_value = substring('1', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-folders'
+2021-02-14 18:11:23,581 [8] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-lwt')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-lwt', '2021/02/14 18:11:14')
+        else update users_cache set var_value = substring('2021/02/14 18:11:14', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-lwt'
+2021-02-14 18:11:23,582 [8] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-last')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-last', '2021/02/14 18:11:23')
+        else update users_cache set var_value = substring('2021/02/14 18:11:23', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-last'
+2021-02-14 18:17:21,819 [7] INFO dn_lib.tools.log - reload core
+2021-02-14 18:17:21,935 [7] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:17:21,937 [7] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:17:21,946 [7] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:17:21,954 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:17:21,965 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:17:21,974 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:17:21,986 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:17:21,994 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:17:22,003 [7] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:17:22,013 [7] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:17:22,014 [7] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:17:22,016 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:17:22,017 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:17:22,019 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:17:22,020 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:17:22,021 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:17:22,022 [7] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:17:22,023 [7] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:17:22,032 [7] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:17:22,035 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:17:22,036 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:17:22,036 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:17:22,037 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:17:22,039 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:17:22,039 [7] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:17:22,057 [7] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:17:23,051 [7] INFO dn_lib.tools.log - reload config docs
+2021-02-14 18:17:23,053 [7] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:17:23,053 [7] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:17:23,054 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:17:23,054 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:17:23,055 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:17:23,055 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:17:23,056 [7] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:17:23,056 [7] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:17:23,056 [7] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:17:23,056 [7] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:17:23,057 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:17:23,058 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:17:23,058 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:17:23,058 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:17:23,059 [7] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:17:23,059 [7] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:17:23,059 [7] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\root\todd\git\dn\deepanotes\defs\blocks.xml
+2021-02-14 18:17:23,059 [7] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\root\todd\git\dn\deepanotes\defs\cmds.xml
+2021-02-14 18:17:23,059 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\root\todd\git\dn\deepanotes\defs\lib-base.xml
+2021-02-14 18:17:23,060 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\root\todd\git\dn\deepanotes\defs\lib-conns.xml
+2021-02-14 18:17:23,061 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\root\todd\git\dn\deepanotes\defs\lib-notes.xml
+2021-02-14 18:17:23,061 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\root\todd\git\dn\deepanotes\defs\lib-synch.xml
+2021-02-14 18:17:23,061 [7] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\root\todd\git\dn\deepanotes\defs\lib-vars.xml
+2021-02-14 18:17:23,061 [7] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\root\todd\git\dn\deepanotes\defs\users.xml
+2021-02-14 18:17:23,062 [7] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!'
+2021-02-14 18:17:23,115 [7] DEBUG dn_lib.tools.log - SQL: select distinct lower(nome) as nome from users
+2021-02-14 18:17:23,123 [7] DEBUG dn_lib.tools.log - SQL: select free_txt, stato, priorita, tipo, stima, (case when [default] = 1 then '1' else '0' end) as [default]
+        from dn_task_free_labels 
+2021-02-14 18:17:23,129 [7] DEBUG dn_lib.tools.log - SQL: select file_name, type_info from dn_files_info
+2021-02-14 18:17:23,131 [7] DEBUG dn_lib.tools.log - SQL: select extension, des_extension, open_comment, close_comment, type_content from dn_files_types
+2021-02-14 18:17:23,137 [7] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-files')
+2021-02-14 18:17:23,140 [7] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-folders')
+2021-02-14 18:17:23,140 [7] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = -1 and var_name in ('synch-lwt')
+2021-02-14 18:17:23,143 [7] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:17:23,151 [7] DEBUG dn_lib.tools.log - elenco cartelle da sincronizzare
+2021-02-14 18:17:23,152 [7] DEBUG dn_lib.tools.log - SQL: select sf.synch_folder_id, sf.pc_name, sf.[title], sf.[des], sf.local_path, sf.http_path, sf.[user], sf.[password]
+        from synch_folders sf where sf.pc_name = 'MOLINOVO' order by sf.[title]
+2021-02-14 18:17:23,153 [7] DEBUG dn_lib.tools.log -    - cartella di sincronizzazione 'dipa notess' - Deepa Notes, path: C:\root\todd\_test\dn
+2021-02-14 18:17:23,154 [7] DEBUG dn_lib.tools.log - SQL: update dn_folders set readed = null;
+      update dn_files set readed = null;
+      update dn_tasks set readed = null;
+2021-02-14 18:17:23,161 [7] DEBUG dn_lib.tools.log - elaboro la cartella C:\root\todd\_test\dn...
+2021-02-14 18:17:23,162 [7] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int;
+      select top 1 @id = folder_id from dn_folders 
+       where synch_folder_id = 1 and parent_id is null 
+        and folder_name = 'orcho.task';
+      if(@id is null)
+      begin
+        insert into dn_folders (synch_folder_id, parent_id, folder_name, readed, dt_ins, dt_upd)
+          values (1, null, 'orcho.task', 1, convert(datetime, '2021-02-14 18:11:14', 120), convert(datetime, '2021-02-14 18:11:14', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else
+      begin
+       update dn_folders set readed = 1 where folder_id = @id;
+       set ROWCOUNT 0;
+       update dn_folders set dt_ins = convert(datetime, '2021-02-14 18:11:14', 120), dt_upd = convert(datetime, '2021-02-14 18:11:14', 120) 
+        where folder_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:11:14', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:11:14', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+      end
+      select @id, @tp, @cc;
+2021-02-14 18:17:23,180 [7] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @notes_lwt varchar(25);
+      select top 1 @id = task_id from dn_tasks where isnull(folder_id, 0) = 1839 and isnull(file_id, 0) = 0;
+      if(@id is null)
+      begin
+        insert into dn_tasks (synch_folder_id, folder_id, file_id, title, [user], dt_ins, dt_upd, readed, stato, priorita, tipo, stima, dt_index)
+          values (1, 1839, null, left('orcho', 150)
+            , NULL, convert(datetime, '2010-01-01 00:00:00', 120), convert(datetime, '2021-02-14 18:10:51', 120), 1
+            , NULL, NULL, NULL, NULL, NULL);
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_tasks set readed = 1 where task_id = @id;
+       set ROWCOUNT 0;
+       update dn_tasks set dt_ins = convert(datetime, '2010-01-01 00:00:00', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120)
+         , title = left('orcho', 150), [user] = NULL
+         , stato = NULL, priorita = NULL
+         , tipo = NULL, stima = NULL, dt_index = NULL
+        where task_id = @id
+         and (isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2010-01-01 00:00:00', 120), getdate()) 
+          or isnull(dt_upd, getdate()) < isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate())
+          or isnull(title, '') <> isnull('orcho', '') or isnull([user], '') <> isnull(NULL, '') 
+          or isnull(stato, '') <> isnull(NULL, '') or isnull(priorita, '') <> isnull(NULL, '') 
+          or isnull(tipo, '') <> isnull(NULL, '') or isnull(stima, '') <> isnull(NULL, ''))
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @notes_lwt = convert(varchar, dt_upd, 120) from dn_tasks_notes where task_id = @id;
+      end
+      select @id, @tp, @cc, @notes_lwt;
+2021-02-14 18:17:23,183 [7] DEBUG dn_lib.tools.log - SQL: declare @id bigint; declare @tp varchar(10); declare @cc int; declare @content_lwt varchar(25);
+      select top 1 @id = file_id from dn_files where synch_folder_id = 1 and folder_id = 1839 and file_name = 'i.txt';
+      if(@id is null)
+      begin
+        insert into dn_files (synch_folder_id, folder_id, file_name, extension, readed, dt_ins, dt_upd)
+          values (1, 1839, 'i.txt', '.txt', 1, convert(datetime, '2021-02-14 18:10:34', 120), convert(datetime, '2021-02-14 18:10:51', 120));
+        select @id = @@IDENTITY, @tp = 'insert', @cc = 1;  
+      end
+      else 
+      begin
+       update dn_files set readed = 1 where file_id = @id;
+       set ROWCOUNT 0;
+       update dn_files set dt_ins = convert(datetime, '2021-02-14 18:10:34', 120), dt_upd = convert(datetime, '2021-02-14 18:10:51', 120) 
+        where file_id = @id and ( isnull(dt_ins, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:34', 120), getdate())
+         or isnull(dt_upd, getdate()) <> isnull(convert(datetime, '2021-02-14 18:10:51', 120), getdate()));
+       select @tp = 'update', @cc = @@ROWCOUNT;
+       select @content_lwt = convert(varchar, dt_upd, 120) from dn_files_contents where file_id = @id;
+      end
+      select @id, @tp, @cc, @content_lwt;
+2021-02-14 18:17:23,188 [7] DEBUG dn_lib.tools.log - SQL: update tt set tt.dt_upd = t2.max_dt
+         from dn_tasks tt
+         join ( select t.*
+          from (select dt.task_id, dt.folder_id, dt.dt_upd 
+            , (select max(dt_upd) from dn_files where folder_id = dt.folder_id) as max_dt
+          from dn_tasks dt where dt.folder_id is not null and dt.task_id = 1460) t
+          where t.max_dt is not null and t.dt_upd < t.max_dt ) t2 on t2.task_id = tt.task_id
+         where isnull(tt.dt_upd, 0) <> t2.max_dt;
+        select @@ROWCOUNT;
+2021-02-14 18:17:23,188 [7] DEBUG dn_lib.tools.log - SQL: declare @cc_files int; declare @cc_folders int;
+      select @cc_files = (select count(*) from dn_files where readed is null) 
+      select @cc_folders = (select count(*) from dn_folders where readed is null)
+      
+      delete from dn_folders where readed is null;
+      delete from dn_files where readed is null;
+      delete fc from dn_files_contents fc
+       where not exists (select top 1 1 from dn_files where file_id = fc.file_id);
+      delete from dn_tasks where readed is null;
+      delete tn from dn_tasks_notes tn
+       where not exists (select top 1 1 from dn_tasks where task_id = tn.task_id);
+      select @cc_files, @cc_folders;
+2021-02-14 18:17:23,204 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-files')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-files', '2')
+        else update users_cache set var_value = substring('2', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-files'
+2021-02-14 18:17:23,204 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-folders')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-folders', '1')
+        else update users_cache set var_value = substring('1', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-folders'
+2021-02-14 18:17:23,212 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-lwt')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-lwt', '2021/02/14 18:11:14')
+        else update users_cache set var_value = substring('2021/02/14 18:11:14', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-lwt'
+2021-02-14 18:17:23,216 [7] DEBUG dn_lib.tools.log - SQL: if not exists (select top 1 1 from users_cache where [user_id] = -1 and var_name = 'synch-last')
+        insert into users_cache ([user_id], var_name, var_value)
+          values (-1, 'synch-last', '2021/02/14 18:17:23')
+        else update users_cache set var_value = substring('2021/02/14 18:17:23', 1, 500), dt_upd = getdate()
+          where [user_id] = -1 and var_name = 'synch-last'

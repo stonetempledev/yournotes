@@ -1,0 +1,569 @@
+2023-01-03 09:00:20,246 [33] INFO dn_lib.tools.log - reload core
+2023-01-03 09:00:20,301 [33] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:20,303 [33] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:20,303 [33] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:20,304 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:20,305 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:20,305 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:20,323 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:20,324 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:20,325 [33] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:20,326 [33] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:20,328 [33] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:20,328 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:20,329 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:20,330 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:20,330 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:20,330 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:20,330 [33] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:20,330 [33] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:20,339 [33] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:20,341 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:20,342 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:20,343 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:20,344 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:20,344 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:20,344 [33] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:20,345 [33] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:26,234 [33] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:26,235 [33] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,236 [33] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,236 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,236 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,237 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,237 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,237 [33] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,238 [33] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,238 [33] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,239 [33] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,239 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,239 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,239 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,239 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,240 [33] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,240 [33] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,240 [33] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,240 [33] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,241 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,241 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,241 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,241 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,241 [33] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,241 [33] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,242 [33] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:26,248 [33] DEBUG dn_lib.tools.log - SQL: select [user_id], nome, pwd, email, isnull(activated, 0) as activated 
+          from users where nome = 'molina' order by isnull(activated, 0) desc;
+2023-01-03 09:00:26,276 [37] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:26,277 [37] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,277 [37] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,278 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,278 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,278 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,279 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,279 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,279 [37] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,280 [37] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,280 [37] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,280 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,280 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,281 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,281 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,281 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,282 [37] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,282 [37] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,282 [37] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,282 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,282 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,283 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,283 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,283 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,283 [37] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,283 [37] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:26,301 [37] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:00:26,321 [8] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:26,321 [8] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,322 [8] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,323 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,323 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,324 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,324 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,324 [8] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,324 [8] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,324 [8] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,325 [8] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,325 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,325 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,325 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,325 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,326 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,327 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,327 [8] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,328 [8] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,328 [8] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:26,334 [8] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:00:26,358 [36] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:26,358 [36] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,359 [36] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,359 [36] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,359 [36] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,360 [36] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,360 [36] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,360 [36] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,360 [36] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,360 [36] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,361 [36] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,361 [36] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,361 [36] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,362 [36] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,362 [36] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,362 [36] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,363 [36] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,363 [36] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:26,363 [36] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:26,364 [36] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:26,364 [36] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:26,364 [36] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:26,365 [36] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:26,365 [36] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:26,366 [36] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:26,370 [36] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:26,379 [36] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:00:26,389 [36] DEBUG dn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 09:00:26,395 [36] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 1 and var_name in ('active-task-filter')
+2023-01-03 09:00:26,401 [36] DEBUG dn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 09:00:26,498 [36] DEBUG dn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 09:00:26,548 [36] DEBUG dn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1 
+2023-01-03 09:00:26,892 [36] DEBUG dn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 09:00:27,286 [36] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 09:00:27,381 [36] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 09:00:27,385 [36] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 09:00:27,387 [36] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 09:00:35,894 [20] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:35,895 [20] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:35,895 [20] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:35,896 [20] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:35,896 [20] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:35,897 [20] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:35,897 [20] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:35,897 [20] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:35,897 [20] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:35,898 [20] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:35,898 [20] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:35,898 [20] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:35,898 [20] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:35,898 [20] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:35,899 [20] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:35,899 [20] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:35,899 [20] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:35,899 [20] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:35,899 [20] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:35,900 [20] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:35,900 [20] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:35,900 [20] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:35,900 [20] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:35,901 [20] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:35,901 [20] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:35,901 [20] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:35,906 [20] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:00:35,964 [20] DEBUG dn_lib.tools.log - SQL: select content from dn_tasks_notes 
+       where task_id = 1805
+2023-01-03 09:00:35,969 [20] DEBUG dn_lib.tools.log - SQL: select a.file_id, a.file_name, a.extension, a.http_path , null as found_file       
+       , (select top 1 1 from dn_tasks where task_id = a.task_id and file_id = a.file_id) as file_task
+      from vw_task_allegati a
+      where a.task_id = 1805
+2023-01-03 09:00:46,857 [16] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:46,857 [16] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:46,858 [16] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:46,858 [16] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:46,859 [16] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:46,859 [16] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:46,860 [16] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:46,860 [16] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:46,860 [16] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:46,860 [16] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:46,861 [16] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:46,861 [16] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:46,861 [16] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:46,861 [16] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:46,861 [16] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:46,862 [16] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:46,863 [16] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:46,863 [16] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:46,863 [16] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:46,863 [16] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:46,863 [16] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:46,863 [16] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:46,864 [16] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:46,864 [16] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:46,864 [16] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:46,865 [16] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:46,866 [16] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:00:46,873 [16] DEBUG dn_lib.tools.log - SQL: select t2.task_id, t2.title, t2.folder_id, t2.file_id, t2.rel_path, t2.folder_name, t2.task_name
+          , (case when t2.folder_id is not null then t2.folder_path else t2.file_path end) as folder_path
+       from ( select t.task_id, t.title
+         , t.folder_id, sf.local_path + isnull(replace(dbo.folder_path(fo.parent_id), '/', '\'), '') as folder_path
+         , t.file_id, sf.local_path + isnull(replace(dbo.folder_path(f.folder_id), '/', '\'), '') as file_path
+         , isnull(f.file_name, fo.folder_name) as folder_name, t.title as task_name
+         , sf.title + isnull(isnull(dbo.folder_path(f.folder_id), dbo.folder_path(fo.parent_id)), '') as rel_path
+        from dn_tasks t
+        left join synch_folders sf on sf.synch_folder_id = t.synch_folder_id
+        left join dn_files f on f.file_id = t.file_id
+        left join dn_folders fo on fo.folder_id = t.folder_id 
+        where t.task_id = 1812 ) t2
+2023-01-03 09:00:46,926 [16] DEBUG dn_lib.tools.log - SQL: delete from dn_folders where folder_id = 2748;
+      
+        delete f from dn_files f
+          where file_id is not null and not exists (select top 1 1 from dn_folders where folder_id = f.file_id);
+          
+        delete dn from dn_files_contents dn
+          where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);
+
+        delete dn from dn_tasks dn
+         where folder_id is not null and not exists (select top 1 1 from dn_folders where folder_id = dn.folder_id);
+
+        delete dn from dn_tasks dn
+         where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);
+  
+        delete dn from dn_tasks_notes dn
+         where not exists (select top 1 1 from dn_tasks where task_id = dn.task_id);
+2023-01-03 09:00:50,864 [37] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:00:50,865 [37] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:50,865 [37] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:50,865 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:50,865 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:50,866 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:50,867 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:50,867 [37] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:50,868 [37] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:50,868 [37] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:50,868 [37] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:50,869 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:50,869 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:50,869 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:50,869 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:50,870 [37] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:50,870 [37] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:50,870 [37] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:00:50,870 [37] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:00:50,871 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:00:50,871 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:00:50,872 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:00:50,872 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:00:50,872 [37] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:00:50,873 [37] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:00:50,873 [37] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:00:50,874 [37] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:00:50,889 [37] DEBUG dn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 09:00:50,897 [37] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 1 and var_name in ('active-task-filter')
+2023-01-03 09:00:50,902 [37] DEBUG dn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 09:00:51,741 [37] DEBUG dn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 09:00:51,787 [37] DEBUG dn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1 
+2023-01-03 09:00:52,567 [37] DEBUG dn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 09:00:52,828 [37] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 09:00:52,834 [37] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 09:00:52,839 [37] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 09:00:52,844 [37] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 09:02:29,369 [38] INFO dn_lib.tools.log - reload core
+2023-01-03 09:02:29,422 [38] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:02:29,424 [38] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:29,425 [38] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:29,426 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:29,426 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:29,426 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:29,427 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:29,427 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:29,428 [38] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:29,428 [38] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:29,429 [38] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:29,431 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:29,432 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:29,432 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:29,432 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:29,433 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:29,433 [38] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:29,433 [38] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:29,441 [38] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:29,443 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:29,444 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:29,444 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:29,445 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:29,446 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:29,446 [38] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:29,449 [38] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:02:30,334 [38] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:02:30,362 [22] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:02:30,363 [22] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:30,363 [22] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:30,364 [22] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:30,364 [22] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:30,364 [22] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:30,364 [22] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:30,364 [22] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:30,366 [22] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:30,366 [22] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:30,366 [22] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:30,366 [22] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:30,366 [22] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:30,366 [22] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:30,367 [22] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:30,368 [22] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:30,368 [22] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:30,368 [22] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:30,368 [22] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:02:30,375 [22] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:02:30,397 [18] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:02:30,398 [18] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:30,398 [18] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:30,398 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:30,398 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:30,399 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:30,399 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:30,399 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:30,399 [18] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:30,400 [18] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:30,400 [18] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:30,400 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:30,401 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:30,401 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:30,401 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:30,401 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:30,402 [18] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:30,402 [18] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:30,402 [18] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:30,402 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:30,402 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:30,402 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:30,403 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:30,403 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:30,403 [18] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:30,406 [18] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:02:30,415 [18] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:02:30,425 [18] DEBUG dn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 09:02:30,429 [18] DEBUG dn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 1 and var_name in ('active-task-filter')
+2023-01-03 09:02:30,433 [18] DEBUG dn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 09:02:30,849 [18] DEBUG dn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 09:02:30,852 [18] DEBUG dn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1 
+2023-01-03 09:02:30,925 [18] DEBUG dn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 09:02:31,363 [18] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 09:02:31,440 [18] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 09:02:31,441 [18] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 09:02:31,442 [18] DEBUG dn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 09:02:53,794 [18] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:02:53,795 [18] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:53,795 [18] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:53,795 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:53,795 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:53,796 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:53,796 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:53,796 [18] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:53,796 [18] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:53,797 [18] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:53,797 [18] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:53,798 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:53,798 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:53,798 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:53,798 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:53,798 [18] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:53,798 [18] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:53,799 [18] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:53,799 [18] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:53,799 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:53,799 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:53,799 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:53,800 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:53,800 [18] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:53,800 [18] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:53,801 [18] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:02:53,807 [18] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 09:02:53,830 [38] INFO dn_lib.tools.log - reload config docs
+2023-01-03 09:02:53,831 [38] INFO dn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:53,831 [38] INFO dn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:53,831 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:53,831 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:53,831 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:53,832 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:53,832 [38] INFO dn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:53,832 [38] INFO dn_lib.tools.log - load xml config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:53,832 [38] INFO dn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:53,833 [38] INFO dn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:53,833 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:53,833 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:53,833 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:53,834 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:53,834 [38] INFO dn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:53,834 [38] INFO dn_lib.tools.log - load vars doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:53,834 [38] INFO dn_lib.tools.log - load config doc: \defs\blocks.xml - C:\_dk\deepanotes\deepanotes\defs\blocks.xml
+2023-01-03 09:02:53,835 [38] INFO dn_lib.tools.log - load config doc: \defs\cmds.xml - C:\_dk\deepanotes\deepanotes\defs\cmds.xml
+2023-01-03 09:02:53,835 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\_dk\deepanotes\deepanotes\defs\lib-base.xml
+2023-01-03 09:02:53,835 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\_dk\deepanotes\deepanotes\defs\lib-conns.xml
+2023-01-03 09:02:53,835 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\_dk\deepanotes\deepanotes\defs\lib-notes.xml
+2023-01-03 09:02:53,836 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\_dk\deepanotes\deepanotes\defs\lib-synch.xml
+2023-01-03 09:02:53,836 [38] INFO dn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\_dk\deepanotes\deepanotes\defs\lib-vars.xml
+2023-01-03 09:02:53,836 [38] INFO dn_lib.tools.log - load config doc: \defs\users.xml - C:\_dk\deepanotes\deepanotes\defs\users.xml
+2023-01-03 09:02:53,836 [38] DEBUG dn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 09:02:53,836 [38] DEBUG dn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1

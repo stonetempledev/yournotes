@@ -1,0 +1,16 @@
+﻿<config>
+
+  <conns>
+    <conn name="home" des="connessione pc portatile a casa"
+      conn-string="Data Source=localhost;Initial Catalog=deepanotes;User ID=sa;Password=Molina32!" provider="System.Data.SqlClient"
+      date-format="yyyy-MM-dd HH:mm:ss" timeout='300' key='tl01'>
+    </conn>
+    <conn name="dipa.246" des="connessione notes dipa"
+      conn-string="Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!" provider="System.Data.SqlClient"
+      date-format="yyyy-MM-dd HH:mm:ss" timeout='300' key='tl01'>
+    </conn>
+  </conns>
+
+</config>
+
+

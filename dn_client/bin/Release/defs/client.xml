@@ -1,0 +1,31 @@
+﻿<config>
+  <vars>
+    <var name="tray-icon">true</var>
+    <var name="tray-icon" machine="home">false</var>
+    <var name="client-tmp-path">{@basepath}att</var>
+    <var name="index-att">__i.xml</var>
+    <var name="io-page">io.aspx</var>
+  </vars>
+  <queries>
+    <query name="opened">
+      <![CDATA[
+if exists (select top 1 1 from clients where machine_ip = {@txtqry='ip_machine'})
+ update clients set [state] = 'opened', dt_upd = getdate(), interval_ss = {@field='interval_ss'}
+  where machine_ip = {@txtqry='ip_machine'} and machine_name = {@txtqry='machine_name'};
+else 
+ insert into clients (machine_ip, [state], machine_name, interval_ss, dt_ins, dt_upd)
+  values ({@txtqry='ip_machine'}, 'opened', {@txtqry='machine_name'}, {@field='interval_ss'}, getdate(), getdate());]]>
+    </query>
+    <query name="closed">
+      <![CDATA[update clients set state = 'closed', dt_upd = getdate() 
+        where machine_ip = {@txtqry='ip_machine'} and machine_name = {@txtqry='machine_name'};]]>
+    </query>
+    <query name="file-infos">
+      <![CDATA[select replace((select http_path from synch_folders where synch_folder_id = f.synch_folder_id)
+          + isnull(dbo.folder_path(f.folder_id), '\') + f.file_name , '\', '/') as http_path
+	    , replace((select local_path from synch_folders where synch_folder_id = f.synch_folder_id)
+          + isnull(dbo.folder_path(f.folder_id), '\') + f.file_name , '/', '\') as server_path
+        , f.file_name, f.extension from dn_files f where f.file_id = {@field='file_id'}]]>
+    </query>
+  </queries>
+</config>

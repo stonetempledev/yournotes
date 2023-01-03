@@ -1,0 +1,56 @@
+﻿<config>
+  <html-blocks>
+    <html-block name="logged-user">
+      <![CDATA[<!-- user -->
+<div id-user='{@field='us.id'}' class='pb-3 mb-4 border-bottom'>
+  <!-- title -->
+  <div class="row">
+    <div tp='ms-title' class='col-12'>
+      <h3>{@field='us.name'} - {@field='us.email'}</h3>
+    </div>
+    <div tp='ms-body' class='col-12'>
+      <span class='mr-3'><b class='text-uppercase'>tipo utente</b>: {@field='us.type'}</span>
+      <span class='mr-3'><b class='text-uppercase'>id utente</b>: {@field='us.id'}</span>
+    </div>
+  </div>
+</div>]]>
+    </html-block>
+    <html-block name="user">
+      <![CDATA[<!-- user -->
+<div id-user='{@field='us.id'}' class='pb-3 mb-4 border-bottom'>
+  <!-- title -->
+  <div class="row">
+    <div tp='ms-title' class='col-12'>
+      <h3>{@field='us.name'} - {@field='us.email'}</h3>
+    </div>
+    <div tp='ms-body' class='col-12'>
+      <span class='mr-3'><b class='text-uppercase'>tipo utente</b>: {@field='us.type'}</span>
+      <span class='mr-3'><b class='text-uppercase'>id utente</b>: {@field='us.id'}</span>
+      {@cond_bool='us.activated','attivo'}
+      {@cond_bool='us.to_confirm','to_confirm'}
+      {@cond_bool='us.disactive','disattivo'}
+      <span class='float-right' style='margin-left:5px;'>
+        <button type='button' class='btn btn-danger btn-sm' onclick="del_user('{@field='us.name'}', {@field='us.id'}); return false;">Cancella</button>
+      </span>
+    </div>
+  </div>
+</div>]]>
+      <cond name="attivo">
+        <![CDATA[<span class='mr-3'><b class='text-uppercase'>attivato il</b>: {@date_field='us.dt_activate','dddd dd MMMM yyyy'}</span>
+        <span class='float-right' style='margin-left:5px;'>
+          <button type='button' class='btn btn-warning btn-sm' onclick="disattiva_user('{@field='us.name'}', {@field='us.id'}); return false;">Disattiva</button>
+        </span>]]>
+      </cond>
+      <cond name="to_confirm">
+        <![CDATA[<span class='mr-3'><b class='text-uppercase'>da confermare, iscritto il</b>: {@date_field='us.dt_ins','dddd dd MMMM yyyy'}</span>]]>
+      </cond>
+      <cond name="disattivo">
+        <![CDATA[<span class='mr-3'><b class='text-uppercase'>utente disattivato il</b>: {@date_field='us.dt_upd','dddd dd MMMM yyyy'}</span>
+        <span class='float-right' style='margin-left:5px;'>
+          <button type='button' class='btn btn-success btn-sm' onclick="riattiva_user({@field='us.id'}); return false;">Riattiva</button>
+        </span>]]>
+      </cond>
+    </html-block>
+  </html-blocks>
+</config>
+

@@ -1,0 +1,13 @@
+﻿<base>
+
+  <networks>
+    <!--<network>home</network>-->
+    <network>dipa</network>
+  </networks>
+
+  <vars des="base">
+    <var name="base_url" network="home">http://localhost/deepanotes/</var>
+    <var name="base_url" network="dipa">http://localhost/deepanotes/</var>    
+  </vars>
+  
+</base>

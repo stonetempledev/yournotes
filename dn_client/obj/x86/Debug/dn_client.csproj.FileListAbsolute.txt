@@ -1,0 +1,8 @@
+C:\_todd\dn\deepanotes\dn_client\bin\Debug\dn_client.exe.config
+C:\_todd\dn\deepanotes\dn_client\bin\Debug\dn_client.exe
+C:\_todd\dn\deepanotes\dn_client\bin\Debug\dn_client.pdb
+C:\_todd\dn\deepanotes\dn_client\obj\x86\Debug\dn_client.frm_main.resources
+C:\_todd\dn\deepanotes\dn_client\obj\x86\Debug\dn_client.Properties.Resources.resources
+C:\_todd\dn\deepanotes\dn_client\obj\x86\Debug\dn_client.csproj.GenerateResource.Cache
+C:\_todd\dn\deepanotes\dn_client\obj\x86\Debug\dn_client.exe
+C:\_todd\dn\deepanotes\dn_client\obj\x86\Debug\dn_client.pdb

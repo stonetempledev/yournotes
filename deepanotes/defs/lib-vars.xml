@@ -1,0 +1,13 @@
+﻿<config>
+
+  <vars des="base">
+    <var name="db-connection" network="home">lib-conns.home</var>
+    <var name="db-connection" network="dipa">lib-conns.dipa.246</var>    
+    <var name="router-page">router.aspx</var>
+    <var name="router-cmd">{@baseurl}router.aspx?cmd=[@par]</var>
+    <var name="tmp-folder">{@basepath}\tmp</var>
+    <var name="tmp-url">{@baseurl}tmp</var>
+    <var name="index-folder">__i.xml</var>
+  </vars>
+
+</config>

@@ -1,0 +1,11 @@
+C:\root\todd\git\dn\dn_lib\bin\Release\dn_lib.dll
+C:\root\todd\git\dn\dn_lib\bin\Release\dn_lib.pdb
+C:\root\todd\git\dn\dn_lib\bin\Release\log4net.dll
+C:\root\todd\git\dn\dn_lib\bin\Release\Newtonsoft.Json.dll
+C:\root\todd\git\dn\dn_lib\bin\Release\log4net.xml
+C:\root\todd\git\dn\dn_lib\bin\Release\Newtonsoft.Json.xml
+C:\root\todd\git\dn\dn_lib\obj\Release\dn_lib.csprojAssemblyReference.cache
+C:\root\todd\git\dn\dn_lib\obj\Release\dn_lib.csproj.CoreCompileInputs.cache
+C:\root\todd\git\dn\dn_lib\obj\Release\dn_lib.csproj.CopyComplete
+C:\root\todd\git\dn\dn_lib\obj\Release\dn_lib.dll
+C:\root\todd\git\dn\dn_lib\obj\Release\dn_lib.pdb

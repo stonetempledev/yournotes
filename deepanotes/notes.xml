@@ -1,0 +1,496 @@
+﻿<config>
+  <html-blocks>
+    <!-- menu -->
+    <html-block name="item-events">
+      <![CDATA[ onmouseover='show_menu(this)' onmouseout='hide_menu(this)']]>
+    </html-block>
+    <html-block name="item-display">
+      <![CDATA[style='display:none;']]>
+    </html-block>
+    <html-block name="item-menu">
+      <![CDATA[<div class="dropdown no-arrow float-right" title='modifica cartella...'>
+        <a tp='menu-item' class="dropdown-toggle mr-2" {@html-block='item-display'} href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false"><i class="fas fa-ellipsis-h text-muted"></i></a>
+        <div class="dropdown-menu dropdown-menu-right shadow">
+          <h4 class="dropdown-header" style='color: blue; background-color: whitesmoke;'>CARTELLA</h4>
+            {@cond_bool='search','','add-folder'}            
+            <div class="dropdown-item"><span onclick="cut_element({@field='id'}, '{@field='tp'}')" style='cursor:pointer;'><i class="fas fa-cut text-primary"></i> taglia la cartella</span></div>
+            <div class="dropdown-item"><span onclick="paste_elements({@field='id'}, '{@field='tp'}')" style='cursor:pointer;'><i class="fas fa-paste text-success"></i> incolla</span></div>
+            <div class="dropdown-item"><span onclick="ren_folder('{@field='title'}', {@field='id'}, '{@field='tp'}')" style='cursor:pointer;'><i class="fas fa-edit text-warning"></i> rinomina cartella</span></div>
+            <div class="dropdown-item"><span onclick="del_folder({@field='id'}, '{@field='tp'}')" style='cursor:pointer;'><i class="fas fa-trash-alt text-danger"></i> cancella la cartella</span></div>
+          </div>
+        </div>]]>
+    </html-block>
+    <html-block name="add-folder">
+      <![CDATA[<div class="dropdown-item"><span onclick="add_folder({@field='id'}, '{@field='tp'}')" style='cursor:pointer;'><i class="fas fa-plus-circle text-info"></i> aggiungi sotto-cartella</span></div>]]>
+    </html-block>
+    <html-block name="item-synch-folder">
+      <![CDATA[<li tp-item='{@field='tp'}' item-id='{@field='id'}' class='voce primo' {@html-block='item-events'}>
+        {@cond_val='url_open_home','open_home'}<a class='h5' href="{@field='url_synch_folder'}">{@field='title'}</a>{@html-block='item-menu'}{@field='block-attivita'}</li>{@field='childs'}]]>
+      <cond name="open_home">
+        <![CDATA[<a class='fas fa-home mr-2' href="{@field='url_open_home'}"></a>]]>
+      </cond>
+      <cond name="add-folder">
+        <![CDATA[{@html-block='add-folder'}]]>
+      </cond>
+    </html-block>
+    <html-block name="item-secondo">
+      <![CDATA[<li tp-item='{@field='tp'}' item-id='{@field='id'}' class='voce secondo {@field='class_cut'}' {@html-block='item-events'}><a class='h6' href="{@field='url_folder'}">{@field='title'}</a>{@field='block-attivita'}{@html-block='item-menu'}</li>{@field='childs'}]]>
+      <cond name="add-folder">
+        <![CDATA[{@html-block='add-folder'}]]>
+      </cond>
+    </html-block>
+    <html-block name="item-terzo">
+      <![CDATA[<li tp-item='{@field='tp'}' item-id='{@field='id'}' class='voce terzo {@field='class_cut'}' {@html-block='item-events'}><a href="{@field='url_folder'}">{@field='title'}</a>{@field='block-attivita'}{@html-block='item-menu'}</li>{@field='childs'}]]>
+      <cond name="add-folder">
+        <![CDATA[{@html-block='add-folder'}]]>
+      </cond>
+    </html-block>
+    <html-block name="item-quarto">
+      <![CDATA[<li tp-item='{@field='tp'}' item-id='{@field='id'}' class='voce quarto {@field='class_cut'}' {@html-block='item-events'}><a href="{@field='url_folder'}">{@field='title'}</a>{@field='block-attivita'}{@cond_val='url_open_folder','open_folder'}{@html-block='item-menu'}</li>]]>
+      <cond name="open_folder">
+        <![CDATA[<small><a class='fas fa-chevron-circle-right ml-2' style='opacity:0.2;' title='apri la cartella' href="{@field='url_open_folder'}"></a></small>]]>
+      </cond>
+      <cond name="add-folder">
+        <![CDATA[{@html-block='add-folder'}]]>
+      </cond>
+    </html-block>
+    <html-block name="spin-attivita">
+      <![CDATA[<a style='opacity: .7;' class="badge badge-pill badge-{@field='class_spin'} ml-2" title="{@field='title'}" href="{@field='url_open_tasks'}">{@field='c_attivita'}</a>]]>
+    </html-block>
+    <html-block name="spin-attivita-synch">
+      <![CDATA[<a style='opacity: .7;' class="badge badge-pill badge-{@field='class_spin'} ml-2" title="{@field='title'}" href="{@field='url_open_tasks'}">{@field='c_attivita'}</a>]]>
+    </html-block>
+    <!-- attivita -->
+    <html-block name="title-attivita-search">
+      <![CDATA[
+      <div class="btn-group w-100 mt-3">
+        <button type="button" class="btn btn-primary w-100"><h3>{@field='filter-title'}</h3></button>
+        <button type="button" class="btn btn-primary px-3" onclick='del_search()'>
+          <h4><span class='fas fa-reply'></span></h4></button>
+        </button>
+
+      </div>      
+      <h4 class='ml-2'><small>{@field='filter-des'}</small></h4>
+      <h5 class='ml-2 mt-4'><small>{@field='conteggio'}</small></h5>
+      <hr class='mb-5 mt-5'/>]]>
+    </html-block>
+    <html-block name="title-attivita-folder-search">
+      <![CDATA[<h1 tp='name_folder' class='h1-responsive bg-primary text-white text-uppercase mb-0'>{@field='title-folder'}</h1>
+      {@cond_val='path-folder','path_folder'}
+
+      <div class="btn-group btn-group-sm w-100 mt-3">
+        <button type="button" class="btn btn-light w-100 m-0">{@field='filter-title'}</button>
+        <button type="button" class="btn btn-light px-3 m-0" onclick='del_search()'>
+          <h4><span class='fas fa-reply'></span></h4></button>
+        </button>
+      </div
+      <h4 class='ml-2'><small>{@field='filter-des'}</small></h4>
+      <h5 class='mb-3'><small>{@field='conteggio'}</small></h5>
+      
+      <div class='mb-5 mt-4'>
+       <p class="note note-primary"><strong>Attività:</strong>
+         <a class='text-primary' style='white-space: nowrap;' href="javascript:add_attivita('da_fare')"><i class="fas fa-plus-circle"></i> aggiungi attività da fare</a>
+         <a class='text-success' style='white-space: nowrap;' href="javascript:add_attivita('fatto')"><i class="fas fa-plus-circle"></i> aggiungi attività fatta</a>
+         <a class='text-warning' style='white-space: nowrap;' href="javascript:add_attivita('in_corso')"><i class="fas fa-plus-circle"></i> aggiungi attività in corso</a></p>
+       <p class="note note-light"><strong>Cartelle:</strong>
+         <a class='text-primary' style='white-space: nowrap;' href="javascript:cut_element()"><i class="fas fa-cut"></i> taglia la cartella</a>
+         <a class='text-success' style='white-space: nowrap;' href="javascript:paste_elements()"><i class="fas fa-paste"></i> incolla</a>
+         <a class='text-warning' style='white-space: nowrap;' href="javascript:ren_folder()"><i class="fas fa-edit"></i> rinomina cartella</a>
+         <a class='text-danger' style='white-space: nowrap;' href="javascript:del_folder()"><i class="fas fa-trash-alt"></i> cancella la cartella</a></p>
+      </div>]]>
+      <cond name="path_folder">
+        <![CDATA[<div class='badge badge-info d-block text-left'>//{@field='path-folder'}</div>]]>
+      </cond>
+    </html-block>
+    <html-block name="title-attivita">
+      <![CDATA[
+      <div class="btn-group w-100 mt-3">
+        <button type="button" class="btn btn-primary w-100"><h3>{@field='filter-title'}</h3></button>
+        <button type="button" class="btn btn-primary dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">{@field='html-filters'}</div>
+      </div>      
+      <h4 class='ml-2'><small>{@field='filter-des'}</small></h4>
+      <h5 class='ml-2 mt-4'><small>{@field='conteggio'}</small></h5>
+      <hr class='mb-5 mt-5'/>]]>
+    </html-block>
+    <html-block name="title-attivita-folder">
+      <![CDATA[<h1 tp='name_folder' class='h1-responsive bg-primary text-white text-uppercase mb-0'>{@field='title-folder'}</h1>
+      {@cond_val='path-folder','path_folder'}
+
+      <div class="btn-group btn-group-sm w-100 mt-3">
+        <button type="button" class="btn btn-light w-100 m-0">{@field='filter-title'}</button>
+        <button type="button" class="btn btn-light dropdown-toggle px-3 m-0" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">{@field='html-filters'}</div>
+      </div
+      <h5 class='mb-3'><small>{@field='conteggio'}</small></h5>
+      
+      <div class='mb-5 mt-4'>
+       <p class="note note-primary"><strong>Attività:</strong>
+         <a class='text-primary' style='white-space: nowrap;' href="javascript:add_attivita('da_fare')"><i class="fas fa-plus-circle"></i> aggiungi attività da fare</a>
+         <a class='text-success' style='white-space: nowrap;' href="javascript:add_attivita('fatto')"><i class="fas fa-plus-circle"></i> aggiungi attività fatta</a>
+         <a class='text-warning' style='white-space: nowrap;' href="javascript:add_attivita('in_corso')"><i class="fas fa-plus-circle"></i> aggiungi attività in corso</a></p>
+       <p class="note note-light"><strong>Cartelle:</strong>
+         <a class='text-info' style='white-space: nowrap;' href="javascript:add_folder()"><i class="fas fa-plus-circle"></i> aggiungi sotto-cartella</a>
+         <a class='text-primary' style='white-space: nowrap;' href="javascript:cut_element()"><i class="fas fa-cut"></i> taglia la cartella</a>
+         <a class='text-success' style='white-space: nowrap;' href="javascript:paste_elements()"><i class="fas fa-paste"></i> incolla</a>
+         <a class='text-warning' style='white-space: nowrap;' href="javascript:ren_folder()"><i class="fas fa-edit"></i> rinomina cartella</a>
+         <a class='text-danger' style='white-space: nowrap;' href="javascript:del_folder()"><i class="fas fa-trash-alt"></i> cancella la cartella</a></p>
+      </div>]]>
+      <cond name="path_folder">
+        <![CDATA[<div class='badge badge-info d-block text-left'>//{@field='path-folder'}</div>]]>
+      </cond>
+    </html-block>
+    <html-block name="open-title-sub-attivita">
+      <![CDATA[<blockquote class="blockquote bq-{@field='cls'} mb-5"><p class="bq-title text-uppercase">{@field='count'} ATTIVITÀ {@field='title'}</p><p>]]>
+    </html-block>
+    <html-block name="close-title-sub-attivita">
+      <![CDATA[</p></blockquote>]]>
+    </html-block>
+    <html-block name="task-error">
+      <![CDATA[<div task-id='{@field='task_id'}'>
+        <div class='badge badge-danger mb-3 d-block text-left text-wrap'>
+        <h3>{@field='error'}</h3>
+        <hr/><h5>{@field='source'}</h5>
+        <hr/><h5>{@field='stack'}</h5></div></div>]]>
+    </html-block>
+    <html-block name="task">
+      <![CDATA[<div task-id='{@field='task_id'}' class='mb-3 {@field='classes'}' task-assegna="{@field='val-assegna'}" task-priorita='{@field='val-priorita'}' task-stima='{@field='val-stima'}' task-tipo='{@field='val-tipo'}'
+            ondragover="drag_task_event(event, {@field='task_id'}, 'over')" ondragleave="drag_task_event(event, {@field='task_id'}, 'leave')">        
+        <!-- title + stato attività -->
+        <div class='badge badge-{@field='cls'} d-block text-left text-wrap'>
+          <div><span class='h4' tp-val='title' contenteditable='true' onfocus='title_task_focus(this)' onblur='title_task_blur(this)'>{@field='title'}</span>
+          
+            <div class="dropdown no-arrow float-right ml-2 mt-1">
+              <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"><i class="fas fa-ellipsis-v text-muted"></i></a>
+              <div class="dropdown-menu dropdown-menu-right shadow">
+                <h4 class="dropdown-header mb-2" style='color: blue; background-color: whitesmoke;'>ATTIVITÀ</h4>
+                <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick='modify_task({@field='task_id'})'>
+                  <i class="fas fa-pen text-info"></i> aggiorna attività</span></div>
+                <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick="del_task({@field='task_id'})">
+                  <i class="fas fa-trash-alt text-danger"></i> elimina attività</span></div>
+                <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick="cut_element({@field='task_id'}, 'task')">
+                  <i class="fas fa-cut text-warning"></i> taglia attività</span></div>
+                {@cond_bool='can-paste','paste-voice'}
+                {@cond_bool='can-paste','add-att'}
+              </div>
+            </div>
+
+            <div class="dropdown no-arrow mr-1 mt-1 float-right">
+              <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                <h4 class='d-inline'><span class='badge badge-pill badge-{@field='cls'}' style='cursor:pointer;'>{@field='stato'}</span></h4></a>
+              <div class="dropdown-menu dropdown-menu-right shadow">
+                <h4 class="dropdown-header" style='color: blue; background-color: whitesmoke;'>STATO ATTIVITÀ</h4>
+                {@field='menu-states'}
+              </div>
+            </div>
+                        
+            <h6 class='d-inline float-right mt-2 mr-3'><span class='text-right'>{@field='priorita'}{@field='stima'}{@field='tipo'}</span></h6>
+            <h6 class='d-inline float-right mt-2 mr-3' title="clicca per visualizzare o inserire delle note" onclick='open_notes({@field='task_id'})'>
+              <span tp-item='btn-notes' class='badge badge-pill badge-info' style='cursor:pointer;'>{@field='title_notes'}</span></h6>
+
+           </div>
+           <span class='text-nowrap font-weight-light'>//{@field='path'}</span>
+           <!-- notes -->
+           <div tp-item='section-notes' class='mt-2' style='display:none;'>
+             <span class='text-dark font-weight-light'>note particolari</span>
+             <textarea tp-item='txt-notes' style='width:100%;border:0pt;' spellcheck="false" wrap='on' class='mt-2 text-muted' rows=7
+              onfocus='focus_task_notes({@field='task_id'})' onblur='blur_task_notes({@field='task_id'})'></textarea>
+           </div>
+           <!-- allegati -->
+           <div tp-item='section-allegati' class='mt-2' style='display:none;'>
+           </div>
+           <!-- footer -->
+           <hr class='m-1'/><h5>{@field='assegnata'}<small class='float-right'>{@field='data'}</small></h5></div></div>]]>
+      <cond name="paste-voice">
+        <![CDATA[<div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick="paste_elements({@field='task_id'}, 'task')">
+              <i class="fas fa-paste text-success"></i> incolla</span></div>]]>
+      </cond>
+      <cond name="add-att">
+        <![CDATA[<div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'>
+        <span onclick="add_att({@field='task_id'})"><i class="far fa-file-alt text-primary"></i> aggiungi allegato</span>
+      </div>]]>
+      </cond>
+    </html-block>
+    <html-block name="task-allegati">
+      <![CDATA[<div class='text-dark font-weight-light mb-2' style='display:block;'>allegati</div>{@field='html-allegati'}]]>
+    </html-block>
+    <html-block name="task-allegato">
+      <![CDATA[<h5 tp='att-{@field='file-id'}' class='d-inline' style='opacity: 0.7;' title="scarica allegato..."><a tp='att-name-{@field='file-id'}' tp-att='{@field='tp_att'}' href="{@field='http-path'}" target='blank' class='badge badge-pill {@field='style'}'>{@field='file-name'}</a></h5>
+      {@html-block='menu-allegato'}]]>
+    </html-block>
+    <html-block name="task-allegato-client">
+      <![CDATA[<h5 tp='att-{@field='file-id'}' class='d-inline' style='opacity: 0.7;' title="scarica allegato..."><a tp='att-name-{@field='file-id'}' tp-att='{@field='tp_att'}' href="javascript:open_att({@field='file-id'}, {@field='user-id'}, '{@field='user-name'}')" class='badge badge-pill {@field='style'}'>{@field='file-name'}</a></h5>
+      {@html-block='menu-allegato'}]]>
+    </html-block>
+    <html-block name="menu-allegato">
+      <![CDATA[
+        <div tp='att-menu-{@field='file-id'}' class="dropdown no-arrow d-inline mr-3">
+          <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><i class="fas fa-ellipsis-v text-muted"></i></a>
+          <div class="dropdown-menu dropdown-menu-right shadow">
+            <h4 class="dropdown-header mb-2" style='color: blue; background-color: whitesmoke;'>ALLEGATO</h4>
+            <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick='modify_att({@field='file-id'})'>
+              <i class="fas fa-pen text-info"></i> rinomina allegato</span></div>
+            <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick="del_att({@field='file-id'})">
+              <i class="fas fa-trash-alt text-danger"></i> elimina allegato</span></div>
+            <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick="cut_element({@field='file-id'}, 'att')">
+              <i class="fas fa-cut text-primary"></i> taglia allegato</span></div>
+            <div class="dropdown-item mb-2 mt-2" style='cursor:pointer;'><span onclick="cut_element({@field='file-id'}, 'att', true)">
+              <i class="fas fa-copy text-success"></i> copia allegato</span></div>
+          </div>
+        </div>
+      ]]>
+    </html-block>
+    <h5 class='d-inline mr-3' title="{@field='tooltip'}"></h5>
+    <html-block name="task-state">
+      <![CDATA[<span class='mr-1 badge badge-pill badge-{@field='cls'}'>{@field='txt'}</span>]]>
+    </html-block>
+    <html-block name="menu-state">
+      <![CDATA[<a class="dropdown-item" href="javascript:task_state({@field='task_id'}, '{@field='assign_stato'}')"><h5>{@field='title'}</h5></a>]]>
+    </html-block>
+  </html-blocks>
+
+  <queries>
+    <query name="menu-states">
+      <![CDATA[select title_singolare, stato from dn_task_stato order by [order]]]>
+    </query>
+    <query name="task-assegna">
+      <![CDATA[select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2]]>
+    </query>
+    <query name="task-priorita">
+      <![CDATA[select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]]]>
+    </query>
+    <query name="task-tipi">
+      <![CDATA[select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]]]>
+    </query>
+    <query name="task-stime">
+      <![CDATA[select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]]]>
+    </query>
+    <query name="folder-local-path">
+      <![CDATA[select sf.local_path + replace(dbo.folder_path(f.folder_id), '/', '\') as local_path, sf.synch_folder_id, f.folder_name as name
+ from dn_folders f 
+ join synch_folders sf on sf.synch_folder_id = f.synch_folder_id
+ where f.folder_id = {@field='folder_id'}]]>
+    </query>
+    <query name="synch-folder-local-path">
+      <![CDATA[select local_path, synch_folder_id, title as name 
+        from synch_folders where synch_folder_id = {@field='synch_folder_id'}]]>
+    </query>
+    <query name="filters-tasks">
+      <![CDATA[select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order]]>
+    </query>
+    <query name="ids-childs-folders">
+      <![CDATA[select folder_id from dn_folders where parent_id is null and synch_folder_id = {@field='synch_folder_id'}]]>
+    </query>
+    <query name="get-synch-folder-id">
+      <![CDATA[select top 1 synch_folder_id from dn_folders where folder_id = {@field='folder_id'}]]>
+    </query>
+    <query name="get-file-task">
+      <![CDATA[select top 1 t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id, t.file_id, f.file_name
+       from dn_tasks t
+       left join dn_files f on f.file_id = t.file_id
+       where t.task_id = {@field='task_id'}]]>
+    </query>
+    <query name="set-folder-new-parent">
+      <![CDATA[update df set df.synch_folder_id = {@field='synch_folder_id'}, df.dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+       from dn_tasks df
+       where df.synch_folder_id <> {@field='synch_folder_id'} 
+        and df.folder_id in (select folder_id from dbo.fnc_dn_folders ({@field='folder_id'}, null) where tp = 'folder');
+
+      update df set df.synch_folder_id = {@field='synch_folder_id'}, df.dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+       from dn_tasks df
+       join dn_files f on f.file_id = df.file_id
+       where df.synch_folder_id <> {@field='synch_folder_id'} 
+        and f.folder_id in (select folder_id from dbo.fnc_dn_folders ({@field='folder_id'}, null) where tp = 'folder');
+      
+      update df set df.synch_folder_id = {@field='synch_folder_id'}, df.dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+       from dn_files df
+       where df.synch_folder_id <> {@field='synch_folder_id'} 
+        and folder_id in (select folder_id from dbo.fnc_dn_folders ({@field='folder_id'}, null) where tp = 'folder');
+       
+      update dn_folders set synch_folder_id = {@field='synch_folder_id'}, dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+       where synch_folder_id <> {@field='synch_folder_id'} 
+        and folder_id in (select folder_id from dbo.fnc_dn_folders ({@field='folder_id'}, null) where tp = 'folder' and lvl > 1);
+         
+      update dn_folders set synch_folder_id = {@field='synch_folder_id'}, parent_id = {@field='parent_id'}, dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+        where folder_id = {@field='folder_id'};]]>
+    </query>
+    <query name="set-file-new-parent">
+      <![CDATA[update df set df.synch_folder_id = {@field='synch_folder_id'}, df.folder_id = {@field='parent_id'}, dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+       from dn_files df where df.file_id = {@field='file_id'};
+       
+       update dn_tasks set synch_folder_id = {@field='synch_folder_id'}, dt_upd = convert(datetime, convert(varchar, getdate(), 120), 120)
+       where file_id = {@field='file_id'} and synch_folder_id <> {@field='synch_folder_id'};
+       ]]>
+    </query>
+    <query name="add-folder">
+      <![CDATA[insert into dn_folders (synch_folder_id, parent_id, folder_name, readed, dt_ins, dt_upd)
+ values ({@field='synch_folder_id'}, {@field='parent_id'}, left({@txtqry='folder_name'}, 150), 1
+  , convert(datetime, convert(varchar, getdate(), 120), 120), convert(datetime, convert(varchar, getdate(), 120), 120))]]>
+    </query>
+    <query name="ren-folder">
+      <![CDATA[update dn_folders set folder_name = left({@txtqry='folder_name'}, 150)
+        where folder_id = {@field='folder_id'}]]>
+    </query>
+    <query name="ren-file">
+      <![CDATA[update dn_files set file_name = left({@txtqry='file_name'}, 150)
+        where file_id = {@field='file_id'}]]>
+    </query>
+    <query name="move-file">
+      <![CDATA[update dn_files set folder_id = {@field='folder_id'}, synch_folder_id = {@field='synch_folder_id'}
+        where file_id = {@field='file_id'}]]>
+    </query>
+    <query name="copy-file">
+      <![CDATA[declare @id int;
+      insert into dn_files (synch_folder_id, folder_id, file_name, dt_ins , readed, dt_upd, extension)
+   select {@field='synch_folder_id'} as synch_folder_id, {@field='folder_id'} as folder_id, {@txtqry='file_name'} as file_name
+    , convert(datetime, convert(varchar, getdate(), 120), 120) as dt_ins, readed, convert(datetime, convert(varchar, getdate(), 120), 120) as dt_upd, extension
+   from dn_files where file_id = {@field='file_id'};
+ 
+   select @id = @@IDENTITY;  
+ 
+   insert into dn_files_contents (file_id, extension, content, dt_ins, dt_upd)
+   select @id as file_id, extension, content, convert(datetime, convert(varchar, getdate(), 120), 120) as dt_ins 
+    , convert(datetime, convert(varchar, getdate(), 120), 120) as dt_upd
+    from dn_files_contents where file_id = {@field='file_id'};]]>
+    </query>
+    <query name="ren-synch-folder">
+      <![CDATA[update synch_folders set title = left({@txtqry='title'}, 50)
+        where synch_folder_id = {@field='synch_folder_id'}]]>
+    </query>
+    <query name="del-folder">
+      <![CDATA[delete f from dn_folders f
+  join (select ft.*
+	 from dbo.fnc_dn_folders({@field='folder_id'}, {@field='synch_folder_id'}) ft
+	 where ft.lvl > 0) ff on ff.folder_id = f.folder_id and ff.synch_folder_id = f.synch_folder_id;
+   
+ delete f from dn_files f
+  where file_id is not null and not exists (select top 1 1 from dn_folders where folder_id = f.file_id);
+  
+ delete dn from dn_files_contents dn
+  where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);
+  
+ delete dn from dn_tasks dn
+  where folder_id is not null and not exists (select top 1 1 from dn_folders where folder_id = dn.folder_id);
+
+ delete dn from dn_tasks dn
+  where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);
+  
+ delete dn from dn_tasks_notes dn
+  where not exists (select top 1 1 from dn_tasks where task_id = dn.task_id);
+  
+ ]]>
+    </query>
+    <query name="clean-synch">
+      <![CDATA[delete from dn_files where synch_folder_id = {@field='synch_folder_id'};
+
+ delete from dn_folders where synch_folder_id = {@field='synch_folder_id'};
+ 
+ delete dn from dn_tasks dn
+  where folder_id is not null and not exists (select top 1 1 from dn_folders where folder_id = dn.folder_id);
+
+ delete dn from dn_tasks dn
+  where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);
+  
+ delete dn from dn_files_contents dn
+  where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);
+  
+ delete dn from dn_tasks_notes dn
+  where file_id is not null and not exists (select top 1 1 from dn_files where file_id = dn.file_id);]]>
+    </query>
+    <query name="search-notes">
+      <![CDATA[declare @txt varchar(max); set @txt = {@txtqry='text'};
+declare @sid varchar(100); set @sid = {@txtqry='session_id'};
+declare @id int; 
+
+select @id = search_id from dn_search_text where session_id = @sid and search_text = @txt;
+
+if @id is null 
+begin
+
+ if not exists (select top 1 1 from dn_search_text where session_id = @sid)
+ begin
+  insert into dn_search_text (session_id, search_text)
+   values (@sid, @txt);
+   select @id = @@IDENTITY;  
+ end
+ else
+ begin
+  select @id = search_id from dn_search_text where session_id = @sid;
+  update dn_search_text set search_text = @txt, dt_ins = getdate() where search_id = @id;
+  delete from dn_search_tasks where search_id = @id; 
+  delete from dn_search_folders where search_id = @id;
+ end
+
+ insert into dn_search_tasks (search_id, synch_folder_id, task_id, folder_id, file_id)
+  select distinct @id as search_id, t2.synch_folder_id, t2.task_id, t2.folder_id, t2.file_id
+   from (select t.task_id, t.synch_folder_id, t.folder_id, null as file_id 
+	 from dn_tasks t where t.title like '%' + @txt + '%' 
+	union select t.task_id, t.synch_folder_id, t.folder_id, null as file_id 
+	 from dn_tasks_notes n
+	 join dn_tasks t on t.task_id = n.task_id
+	 where n.content like '%' + @txt + '%'
+	union select t.task_id, t.synch_folder_id, t.folder_id, f.file_id 
+	 from dn_files f
+	 join dn_tasks t on t.folder_id = f.folder_id or t.file_id = f.file_id
+	 where f.file_name like '%' + @txt + '%'
+    and not exists (select top 1 1 from dn_tasks_notes where file_id = f.file_id)
+	union select t.task_id, t.synch_folder_id, t.folder_id, f.file_id
+	 from dn_files_contents fc 
+	 join dn_files f on f.file_id = fc.file_id
+	 join dn_tasks t on t.folder_id = f.folder_id or t.file_id = f.file_id
+	 where fc.content like '%' + @txt + '%'
+    and not exists (select top 1 1 from dn_tasks_notes where file_id = f.file_id)) t2
+    
+ update st set st.folder_id = f.folder_id
+  from dn_search_tasks st
+  join dn_tasks t on t.task_id = st.task_id
+  join dn_files f on f.file_id = t.file_id
+  where st.search_id = @id and t.file_id is not null 
+
+ insert into dn_search_folders (search_id, synch_folder_id, folder_id)
+  select @id as search_id, sf.synch_folder_id, null as folder_id
+   from synch_folders sf
+   join (select distinct synch_folder_id from dn_search_tasks) t on t.synch_folder_id = sf.synch_folder_id
+  union select @id as search_id, fp.synch_folder_id, fp.folder_id
+   from (select distinct folder_id from dn_search_tasks) t
+  cross apply [dbo].[folder_parents](t.folder_id) fp; 
+
+ delete t from dn_search_tasks t
+  join dn_search_text s on t.search_id = s.search_id and datediff(hour, s.dt_ins, getdate()) > 5;
+ 
+ delete t from dn_search_folders t
+  join dn_search_text s on t.search_id = s.search_id and datediff(hour, s.dt_ins, getdate()) > 5;
+ 
+ delete from dn_search_text where datediff(hour, dt_ins, getdate()) > 5;
+
+end
+
+select @id as search_id, count(*) as cc from dn_search_tasks where search_id = @id;
+
+]]>
+    </query>
+  </queries>
+</config>

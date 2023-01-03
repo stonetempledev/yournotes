@@ -1,0 +1,60 @@
+﻿<!-- GRUPPI COMANDI DEEPA-NOTES
+
+name: codice gruppo comandi
+title: titolo gruppo di comandi 
+des: descrizione gruppo di comandi
+
+-->
+<!-- COMANDI DEEPA-NOTES
+
+group: gruppo d'appartenenza dell'azione
+action: azione principale obbligatoria
+object, subobj: oggetto e sotto-oggetto dell'azione principale
+
+SINTASSI DICHIARAZIONE object, subobj
+ keyword - parola chiave che rappresenta un oggetto o un'azione particolare
+ {par_value} - valore variabile dell'object o del subobj
+ name_parameter:{par_value} - valore variabile accompagnato al nome del parametro associato all'object o al subobj
+-->
+<config>
+
+  <tables>
+    <table name="cmds-groups" cols="name,title,des,select-sql">
+      <rows>
+        <row name="base" title="Base Actions" des="azioni basilari ed essenziali"/>
+        <row name="sys" title="System Actions" des="comandi di sistema speciali, per manutenzione ed amministrazione"/>
+        <row name="users" title="Gestione Utenti" des="elenco utenti, aggiunta, modifica, etc..."/>
+        <row name="deepa-notes" title="Gestione Deepa Notes" des="comandi per la gestione dei contenuti"/>
+      </rows>
+    </table>
+    <table name="base-cmds" cols="group,code,sub-code,action,action-opt,object,syn-object,subobj,des,page,type,call,compile">
+      <rows>
+        <!-- base -->
+        <row group="base" action="exit" des="effettua il log out dall'ambiente" call="true"/>
+        <!-- users -->
+        <row group="users" action="view" action-opt="true" object="user" page="users.aspx" syn-object="utente" des="visualizza i dettagli sull'utente loggato" call="true"/>
+        <row group="users" action="view" action-opt="true" object="users" page="users.aspx" syn-object="utenti" des="elenco degli utenti registrati" call="true" type="admin"/>
+        <row group="users" action="add" object="user" page="users.aspx" syn-object="utente" des="aggiunta utente" call="true" type="admin"/>
+        <!-- sys -->
+        <row group="sys" action="view" action-opt="true" object="cmds" syn-object="comandi" des="elenco di tutti i comandi disponibili" call="true"/>
+        <row group="sys" action="view" action-opt="true" object="vars" syn-object="variabili" des="elenco delle variabili di sistema" type="admin" call="true"/>
+        <row group="sys" action="view" action-opt="true" object="logs" des="elenco dei logs registrati nel sito" type="admin" call="true"/>
+        <row group="sys" action="view" object="log-today" des="apre il log di oggi" type="admin" call="true"/>
+        <row group="sys" action="view" object="log" subobj="{file}" des="apre un log specifico" type="admin"/>
+        <row group="sys" action="crypt" object="{phrase}" des="cripta la frase specificata in SHA1" type="admin" compile="true"/>
+        <row group="sys" action="crypt" object="{phrase}" subobj="{password}" des="cripta la frase specificata nel sistema interno con password" type="admin" compile="true"/>
+        <row group="sys" action="decrypt" object="{phrase}" subobj="{password}" des="decripta la frase generata dal sistema interno con password" type="admin" compile="true"/>
+        <row group="sys" action="check" object="conn" des="verifica connessione al database" type="admin" call="true"/>
+        <row group="sys" action="view" action-opt="true" object="synch" subobj="settings" page="synch.aspx" des="verifica impostazioni di sincronizzazione cartelle" type="admin" call="true"/>
+        <!-- deepa-notes -->
+        <row group="deepa-notes" action="view" action-opt="true" object="tasks" syn-object="attivita"
+             page="notes.aspx" des="vista attivita deepa-notes" call="true"/>
+        <row group="deepa-notes" action="search" action-opt="true" object="task" subobj="{testo da ricercare}"
+             page="notes.aspx" des="ricerca attivita deepa-notes" call="true"/>
+        <row group="deepa-notes" action="synch" 
+             page="notes.aspx" des="sincronizza le cartelle con il database" call="true"/>
+      </rows>
+    </table>
+  </tables>
+
+</config>

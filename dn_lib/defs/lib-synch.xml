@@ -1,0 +1,25 @@
+﻿<config>
+  <queries>
+    <query name="synch-machines">
+      <![CDATA[select sm.synch_machine_id, sm.pc_name, sm.pc_des, sm.ip_address, sm.state, sm.seconds
+        , sm.active, sm.dt_start, sm.dt_stop, sm.dt_lastsynch, sm.c_folders, sm.c_files, sm.c_deleted, sm.s_synch
+       from synch_machines sm]]>
+    </query>
+    <query name="start-synch-machine">
+      <![CDATA[select synch_machine_id, pc_name, pc_des, seconds, active, state
+       from synch_machines where pc_name = {@txtqry='pc_name'}]]>
+    </query>
+    <query name="start-machine">
+      <![CDATA[update synch_machines set state = 'start', ip_address = {@txtqry='ip_address'}, dt_start = getdate() where synch_machine_id = {@field='id'}]]>
+    </query>
+    <query name="stop-machine">
+      <![CDATA[update synch_machines set state = null, dt_stop = getdate() where synch_machine_id = {@field='id'}]]>
+    </query>
+    <query name="last-synch-machine">
+      <![CDATA[update synch_machines set dt_lastsynch = getdate(), c_folders = {@null='folders'}, c_files = {@null='files'}
+         , c_deleted = {@null='deleted'}, s_synch = {@null='seconds'}
+        where synch_machine_id = {@field='id'}]]>
+    </query>
+  </queries>
+</config>
+

@@ -1,0 +1,15 @@
+﻿<base>
+
+  <machines>
+    <machine name="molinovo">home</machine>
+    <machine name="fabio-pc">dipa_dev</machine>
+    <machine name="dipaserver">dipa_server</machine>
+  </machines>
+  
+  <vars des="base">
+    <var name="base_url" machine="home">http://localhost/deepanotes/</var>
+    <var name="base_url" machine="dipa_dev">http://192.168.1.91/deepanotes/</var>
+    <var name="base_url" machine="dipa_server">http://192.168.1.91/deepanotes/</var>
+  </vars>
+  
+</base>

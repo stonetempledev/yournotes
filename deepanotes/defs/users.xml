@@ -1,0 +1,21 @@
+﻿<config>
+  <queries>
+    <query name="users">
+      <![CDATA[select u.user_id, u.nome, u.email, u.dt_activate, u.activated, u.dt_upd, u.dt_ins
+ from users u where (isnull({@null='id'}, 0) = 0 or (isnull({@null='id'}, 0) <> 0 and u.user_id = {@null='id'})) order by u.nome]]>
+    </query>
+    <query name="del-user">
+      <![CDATA[
+        delete from users where user_id = {@field='id'};
+        delete from users_cache where user_id = {@field='id'};
+        delete from users_settings where user_id = {@field='id'};
+    ]]></query>
+    <query name="disable-user">
+      <![CDATA[update users set activated = null, dt_upd = getdate() where user_id = {@field='id'}]]>
+    </query>
+    <query name="active-user">
+      <![CDATA[update users set activated = 1, dt_upd = getdate(), dt_activate = getdate() where user_id = {@field='id'}]]>
+    </query>
+  </queries>
+</config>
+

@@ -1,0 +1,17 @@
+﻿<config>
+  <html-blocks>
+    <!-- section -->
+    <html-block name="section-title">
+      <![CDATA[<h3 style='color:white;text-transform:uppercase;background-color:royalblue;'>{@field='title'}<small class='d-block'>{@field='des'}</small></h3>]]>
+    </html-block>
+    <!-- list -->
+    <html-block name="open-list"><![CDATA[<div class='list-group mb-3'>]]></html-block>
+    <html-block name="list-item">
+      <![CDATA[<a class='list-group-item list-group-item-action flex-column align-items-start' href="{@field='ref'}">
+        <div class='d-flex w-90 justify-content-between'>
+          <h4 class='font-weight-bold mb-1'>{@field='title'}<small class='ml-2'>{@field='sub-title'}</small></h4>
+        </div>{@field='sub-items'}</a>]]></html-block>
+    <html-block name="list-sub-item"><![CDATA[<p class='mt-1'>{@field='html'}</p>]]></html-block>
+    <html-block name="close-list"><![CDATA[</div>]]></html-block>
+  </html-blocks>
+</config>

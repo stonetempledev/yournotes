@@ -1,0 +1,37 @@
+﻿<config>
+  <queries>
+    <!-- cache vars -->
+    <query name="set-cache-var">
+      <![CDATA[if not exists (select top 1 1 from users_cache where [user_id] = {@field='user_id'} and var_name = '{@field='var_name'}')
+        insert into users_cache ([user_id], var_name, var_value)
+          values ({@field='user_id'}, '{@field='var_name'}', {@txtqry='var_value'})
+        else update users_cache set var_value = substring({@txtqry='var_value'}, 1, 500), dt_upd = getdate()
+          where [user_id] = {@field='user_id'} and var_name = '{@field='var_name'}']]>
+    </query>
+    <query name="get-cache-var">
+      <![CDATA[select var_name, var_value 
+          from users_cache where [user_id] = {@field='user_id'} and var_name in ({@field='list_vars'})]]>
+    </query>
+    <query name="reset-cache-var">
+      <![CDATA[delete from users_cache where [user_id] = {@field='user_id'} and var_name = '{@field='var_name'}']]>
+    </query>
+    <!-- user settings -->
+    <query name="set-setting">
+      <![CDATA[if({@txtvoid='value'} = '')
+      delete from users_settings where setting_name = {@txtqry='setting'} and [user_id] = {@field='user_id'};
+      else
+      begin      
+        if not exists (select top 1 1 from users_settings where [user_id] = {@field='user_id'} and setting_name = {@txtqry='setting'})
+         insert into users_settings (setting_name, setting_var, [user_id])
+          values ({@txtqry='setting'}, {@txtqry='value'}, {@field='user_id'});
+        else 
+         update users_settings set setting_var = {@txtqry='value'}, dt_upd = getdate()
+          where setting_name = {@txtqry='setting'} and [user_id] = {@field='user_id'};
+        end ]]>
+    </query>
+    <query name="get-settings">
+      <![CDATA[select setting_id, setting_name, setting_var, machine_name 
+        from settings]]>
+    </query>
+  </queries>
+</config>
