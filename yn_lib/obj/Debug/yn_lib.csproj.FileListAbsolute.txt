@@ -1,0 +1,10 @@
+C:\my\dk\prjs\yournotes\yn_lib\bin\Debug\yn_lib.dll
+C:\my\dk\prjs\yournotes\yn_lib\bin\Debug\yn_lib.pdb
+C:\my\dk\prjs\yournotes\yn_lib\bin\Debug\log4net.dll
+C:\my\dk\prjs\yournotes\yn_lib\bin\Debug\Newtonsoft.Json.dll
+C:\my\dk\prjs\yournotes\yn_lib\bin\Debug\log4net.xml
+C:\my\dk\prjs\yournotes\yn_lib\bin\Debug\Newtonsoft.Json.xml
+C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.csproj.CoreCompileInputs.cache
+C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.csproj.CopyComplete
+C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.dll
+C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.pdb

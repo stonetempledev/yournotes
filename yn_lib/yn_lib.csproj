@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4C20D7E-1C8E-42AE-BA16-7027B0FD9C87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>yn_lib</RootNamespace>
+    <AssemblyName>yn_lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.12\lib\net40\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bo.cs" />
+    <Compile Include="core.cs" />
+    <Compile Include="notes\file_info.cs" />
+    <Compile Include="notes\file_type.cs" />
+    <Compile Include="notes\doc_task.cs" />
+    <Compile Include="notes\task_tipo.cs" />
+    <Compile Include="notes\task_stima.cs" />
+    <Compile Include="notes\task_priorita.cs" />
+    <Compile Include="notes\task_stato.cs" />
+    <Compile Include="notes\free_label.cs" />
+    <Compile Include="notes\file.cs" />
+    <Compile Include="notes\folder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="synch\synch.cs" />
+    <Compile Include="synch\synch_folder.cs" />
+    <Compile Include="synch\synch_machine.cs" />
+    <Compile Include="synch\synch_result.cs" />
+    <Compile Include="synch\synch_setting.cs" />
+    <Compile Include="notes\task.cs" />
+    <Compile Include="tools\blocks.cs" />
+    <Compile Include="tools\ComboBoxItem.cs" />
+    <Compile Include="tools\config.cs" />
+    <Compile Include="tools\cry.cs" />
+    <Compile Include="tools\file.cs" />
+    <Compile Include="tools\json.cs" />
+    <Compile Include="tools\json_request.cs" />
+    <Compile Include="tools\json_result.cs" />
+    <Compile Include="tools\log.cs" />
+    <Compile Include="tools\procs.cs" />
+    <Compile Include="tools\req.cs" />
+    <Compile Include="tools\setting.cs" />
+    <Compile Include="tools\strings.cs" />
+    <Compile Include="tools\sys.cs" />
+    <Compile Include="tools\zip.cs" />
+    <Compile Include="db\db_access.cs" />
+    <Compile Include="db\db_mysql.cs" />
+    <Compile Include="db\db_odbc.cs" />
+    <Compile Include="db\db_ole.cs" />
+    <Compile Include="db\db_provider.cs" />
+    <Compile Include="db\db_sqlserver.cs" />
+    <Compile Include="db\idx_field.cs" />
+    <Compile Include="db\idx_table.cs" />
+    <Compile Include="db\meta_doc.cs" />
+    <Compile Include="db\meta_link.cs" />
+    <Compile Include="db\meta_rule.cs" />
+    <Compile Include="db\meta_table.cs" />
+    <Compile Include="db\parameter.cs" />
+    <Compile Include="db\schema_doc.cs" />
+    <Compile Include="db\schema_field.cs" />
+    <Compile Include="xml\def_node.cs" />
+    <Compile Include="xml\nano_doc.cs" />
+    <Compile Include="xml\xml_doc.cs" />
+    <Compile Include="xml\xml_node.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="defs\lib-base.xml" />
+    <Content Include="defs\lib-conns.xml" />
+    <Content Include="defs\lib-notes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="defs\lib-synch.xml" />
+    <Content Include="defs\lib-vars.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(ProjectDir)\defs\*.* $(ProjectDir)\..\yournotes\defs</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
