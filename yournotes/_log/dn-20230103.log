@@ -763,3 +763,1521 @@
       from (select '' as title, '' as [value]
        union select nome as title, nome as [value] from users
        ) t order by 2
+2023-01-03 10:08:46,952 [7] INFO yn_lib.tools.log - reload core
+2023-01-03 10:08:46,984 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:08:46,985 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:46,986 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:46,987 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:46,988 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:46,988 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:46,988 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:46,989 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:46,989 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:46,990 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:46,990 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:46,990 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:46,991 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:46,991 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:46,991 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:46,992 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:46,992 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:46,992 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:46,997 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:46,998 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:46,999 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,000 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,000 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,001 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,001 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,003 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:08:47,032 [7] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:08:47,054 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:08:47,055 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:47,055 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:47,056 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:47,056 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,056 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,056 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,056 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,056 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,057 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:47,057 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:47,058 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:47,058 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,058 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,058 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,059 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,059 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,059 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:47,059 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:47,060 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:47,060 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,060 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,060 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,060 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,061 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,061 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:08:47,067 [7] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:08:47,091 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:08:47,092 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:47,093 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:47,093 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:47,093 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,093 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,094 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,094 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,094 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,095 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:47,095 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:47,095 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:47,096 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,096 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,096 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,096 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,096 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,096 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:08:47,097 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:08:47,097 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:08:47,097 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:08:47,097 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:08:47,097 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:08:47,098 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:08:47,098 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:08:47,100 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:08:47,115 [7] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:08:47,129 [7] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 10:08:47,138 [7] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 1 and var_name in ('active-task-filter')
+2023-01-03 10:08:47,146 [7] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 10:08:47,232 [7] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 10:08:47,249 [7] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1 
+2023-01-03 10:08:47,344 [7] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 10:08:47,661 [7] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 10:08:47,743 [7] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 10:08:47,748 [7] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 10:08:47,753 [7] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 10:09:31,238 [5] INFO yn_lib.tools.log - reload core
+2023-01-03 10:09:31,286 [5] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:09:31,288 [5] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:31,289 [5] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:31,289 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:31,289 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:31,290 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:31,290 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:31,292 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:31,292 [5] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:31,292 [5] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:31,293 [5] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:31,294 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:31,294 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:31,294 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:31,295 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:31,295 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:31,295 [5] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:31,295 [5] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:31,300 [5] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:31,301 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:31,302 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:31,303 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:31,303 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:31,303 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:31,304 [5] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:31,304 [5] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:09:32,284 [5] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:09:32,302 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:09:32,303 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:32,305 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:32,305 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:32,305 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:32,305 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:32,306 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:32,306 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:32,307 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:32,307 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:32,307 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:32,308 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:32,308 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:32,308 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:32,309 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:32,309 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:32,309 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:32,309 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:32,310 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:32,310 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:32,311 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:32,311 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:32,311 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:32,311 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:32,311 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:32,312 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:09:32,318 [7] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:09:32,341 [9] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:09:32,342 [9] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:32,342 [9] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:32,343 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:32,343 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:32,343 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:32,344 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:32,344 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:32,344 [9] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:32,344 [9] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:32,345 [9] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:32,345 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:32,345 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:32,345 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:32,345 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:32,345 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:32,346 [9] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:32,346 [9] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:32,346 [9] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:32,346 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:32,346 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:32,347 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:32,347 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:32,347 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:32,347 [9] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:32,347 [9] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:09:32,353 [9] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:09:32,363 [9] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 10:09:32,367 [9] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 1 and var_name in ('active-task-filter')
+2023-01-03 10:09:32,371 [9] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 10:09:32,453 [9] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 10:09:32,456 [9] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1 
+2023-01-03 10:09:32,495 [9] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 10:09:32,839 [9] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 10:09:32,893 [9] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 10:09:32,896 [9] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 10:09:32,897 [9] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 10:09:38,753 [11] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:09:38,754 [11] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,755 [11] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,755 [11] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,756 [11] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,756 [11] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,756 [11] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,757 [11] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,757 [11] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,757 [11] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,758 [11] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,759 [11] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,759 [11] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,759 [11] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,760 [11] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,760 [11] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,760 [11] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,760 [11] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,761 [11] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:09:38,768 [11] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:09:38,800 [10] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:09:38,801 [10] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,801 [10] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,801 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,802 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,803 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,803 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,803 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,803 [10] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,804 [10] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,804 [10] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,804 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,804 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,805 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,805 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,805 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,805 [10] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,805 [10] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,805 [10] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,806 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,806 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,806 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,806 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,807 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,807 [10] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,807 [10] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:09:38,807 [10] DEBUG yn_lib.tools.log - SQL: select nome, email, isnull(activated, 0) as activated 
+          from users where user_id = 1
+2023-01-03 10:09:38,821 [8] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:09:38,821 [8] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,822 [8] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,822 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,822 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,823 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,824 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,824 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,824 [8] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,825 [8] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,825 [8] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,825 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,825 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,825 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,825 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:09:38,826 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:09:38,827 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:09:38,827 [8] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:09:38,827 [8] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:08,105 [15] INFO yn_lib.tools.log - reload core
+2023-01-03 10:14:08,140 [15] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:08,141 [15] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:08,142 [15] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:08,142 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:08,143 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:08,143 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:08,144 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:08,144 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:08,144 [15] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:08,144 [15] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:08,147 [15] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:08,148 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:08,148 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:08,149 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:08,149 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:08,149 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:08,150 [15] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:08,150 [15] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:08,155 [15] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:08,156 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:08,157 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:08,157 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:08,158 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:08,159 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:08,159 [15] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:08,159 [15] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:12,433 [5] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:12,433 [5] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,434 [5] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,435 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,435 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,435 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,436 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,436 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,436 [5] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,437 [5] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,437 [5] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,437 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,437 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,438 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,438 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,438 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,438 [5] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,438 [5] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,439 [5] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,439 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,440 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,440 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,441 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,441 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,441 [5] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,441 [5] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:12,464 [12] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:12,464 [12] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,464 [12] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,465 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,466 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,466 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,466 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,467 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,468 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,468 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,468 [12] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,468 [12] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,468 [12] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,469 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,469 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,470 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,470 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,470 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,470 [12] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,470 [12] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:12,507 [10] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:12,507 [10] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,508 [10] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,508 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,509 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,509 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,509 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,509 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,509 [10] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,510 [10] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,510 [10] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,510 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,511 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,511 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,511 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,511 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,511 [10] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,511 [10] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,512 [10] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,512 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,512 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,513 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,513 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,513 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,513 [10] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,513 [10] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:12,544 [15] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:12,544 [15] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,545 [15] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,545 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,545 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,545 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,546 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,546 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,546 [15] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,546 [15] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,546 [15] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,547 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,547 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,547 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,547 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,547 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,548 [15] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,548 [15] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:12,548 [15] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:12,548 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:12,548 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:12,548 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:12,549 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:12,549 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:12,550 [15] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:12,550 [15] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:12,576 [15] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 10:14:12,581 [15] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:12,583 [15] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:12,588 [15] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:12,590 [15] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:12,590 [15] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:12,591 [15] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 10:14:12,667 [15] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 10:14:12,669 [15] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1  and t3.stato = 'in_corso' or t3.diff_days <= 7
+2023-01-03 10:14:12,762 [15] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 10:14:12,766 [15] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 10:14:12,838 [15] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 10:14:12,840 [15] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 10:14:12,842 [15] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 10:14:19,991 [19] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:19,992 [19] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:19,992 [19] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:19,992 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:19,992 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:19,993 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:19,993 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:19,993 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:19,994 [19] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:19,994 [19] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:19,994 [19] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:19,995 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:19,995 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:19,995 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:19,995 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:19,995 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:19,995 [19] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:19,996 [19] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:19,996 [19] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:19,996 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:19,996 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:19,996 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:19,997 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:19,997 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:19,997 [19] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:19,998 [19] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:20,016 [5] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:20,016 [5] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:20,016 [5] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:20,017 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:20,017 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:20,017 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:20,018 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:20,018 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:20,018 [5] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:20,018 [5] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:20,019 [5] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:20,019 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:20,019 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:20,019 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:20,019 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:20,019 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:20,020 [5] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:20,020 [5] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:20,020 [5] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:20,020 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:20,020 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:20,020 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:20,021 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:20,021 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:20,021 [5] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:20,022 [5] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:28,586 [10] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:28,587 [10] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,587 [10] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,587 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,588 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,588 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,589 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,589 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,589 [10] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,590 [10] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,590 [10] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,590 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,591 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,591 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,591 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,591 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,592 [10] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,592 [10] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,593 [10] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,594 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,594 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,595 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,595 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,595 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,595 [10] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,596 [10] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:28,617 [12] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:28,617 [12] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,618 [12] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,618 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,618 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,619 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,619 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,619 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,619 [12] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,620 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,621 [12] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,621 [12] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,621 [12] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,621 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,621 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,622 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,622 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,622 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,622 [12] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,622 [12] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:28,639 [5] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:28,639 [5] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,640 [5] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,640 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,640 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,641 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,641 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,641 [5] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,641 [5] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,642 [5] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,642 [5] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,642 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,642 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,642 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,642 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,643 [5] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,643 [5] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,643 [5] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:28,643 [5] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:28,643 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:28,643 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:28,644 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:28,644 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:28,644 [5] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:28,644 [5] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:28,645 [5] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:32,760 [15] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:32,761 [15] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,761 [15] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,761 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,762 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,762 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,763 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,763 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,764 [15] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,764 [15] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,764 [15] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,764 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,765 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,765 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,765 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,765 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,766 [15] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,766 [15] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,766 [15] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,767 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,767 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,768 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,768 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,769 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,769 [15] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,769 [15] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:32,779 [13] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:32,780 [13] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,780 [13] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,781 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,781 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,781 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,782 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,782 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,782 [13] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,783 [13] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,783 [13] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,783 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,783 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,784 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,784 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,784 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,785 [13] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,785 [13] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,785 [13] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,785 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,786 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,786 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,786 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,786 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,786 [13] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,787 [13] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:32,804 [9] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:32,805 [9] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,805 [9] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,805 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,806 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,806 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,806 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,807 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,808 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,808 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,808 [9] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,808 [9] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,808 [9] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,809 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,809 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,809 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,809 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,809 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,810 [9] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,810 [9] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:32,822 [19] INFO yn_lib.tools.log - reload config docs
+2023-01-03 10:14:32,823 [19] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,824 [19] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,824 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,824 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,824 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,824 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,825 [19] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,825 [19] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,826 [19] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,827 [19] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 10:14:32,827 [19] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 10:14:32,827 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 10:14:32,827 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 10:14:32,828 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 10:14:32,828 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 10:14:32,828 [19] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 10:14:32,828 [19] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 10:14:32,828 [19] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 10:14:32,840 [19] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 10:14:32,842 [19] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:32,842 [19] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:32,843 [19] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:32,843 [19] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:32,844 [19] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 10:14:32,844 [19] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 10:14:32,907 [19] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 10:14:32,908 [19] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1  and t3.stato = 'in_corso' or t3.diff_days <= 7
+2023-01-03 10:14:32,935 [19] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 10:14:32,938 [19] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 10:14:32,939 [19] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 10:14:32,939 [19] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 10:14:32,940 [19] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 14:10:09,729 [6] INFO yn_lib.tools.log - reload core
+2023-01-03 14:10:09,762 [6] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:09,763 [6] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,764 [6] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,764 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,773 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,774 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,787 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,794 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,805 [6] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,806 [6] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,808 [6] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,809 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,809 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,809 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,809 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,810 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,810 [6] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,810 [6] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,815 [6] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,817 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,817 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,818 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,818 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,818 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,820 [6] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,820 [6] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:09,880 [6] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:09,881 [6] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,881 [6] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,882 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,882 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,882 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,883 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,883 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,883 [6] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,883 [6] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,884 [6] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,884 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,884 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,885 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,885 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,885 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,885 [6] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,886 [6] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,886 [6] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,886 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,886 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,886 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,887 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,887 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,887 [6] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,887 [6] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:09,921 [6] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:09,922 [6] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,922 [6] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,923 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,923 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,923 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,923 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,925 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,925 [6] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,926 [6] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,926 [6] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,926 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,926 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,926 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,926 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,927 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,927 [6] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,927 [6] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:09,928 [6] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:09,928 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:09,928 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:09,928 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:09,929 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:09,929 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:09,929 [6] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:09,932 [6] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:09,954 [6] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 14:10:10,079 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:10,102 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:10,103 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:10,104 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:10,105 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:10,109 [6] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 14:10:10,256 [6] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 14:10:10,282 [6] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1  and t3.stato = 'in_corso' or t3.diff_days <= 7
+2023-01-03 14:10:10,444 [6] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 14:10:10,460 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 14:10:10,537 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 14:10:10,543 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 14:10:10,550 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 14:10:25,935 [8] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:25,936 [8] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:25,937 [8] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:25,937 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:25,938 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:25,939 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:25,940 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:25,940 [8] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:25,941 [8] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:25,941 [8] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:25,941 [8] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:25,942 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:25,942 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:25,943 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:25,943 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:25,943 [8] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:25,943 [8] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:25,943 [8] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:25,943 [8] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:25,944 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:25,944 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:25,944 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:25,944 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:25,944 [8] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:25,945 [8] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:25,945 [8] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:26,012 [8] DEBUG yn_lib.tools.log - SQL: select sf.local_path + replace(dbo.folder_path(f.folder_id), '/', '\') as local_path, sf.synch_folder_id, f.folder_name as name
+ from dn_folders f 
+ join synch_folders sf on sf.synch_folder_id = f.synch_folder_id
+ where f.folder_id = 2745
+2023-01-03 14:10:26,030 [8] ERROR yn_lib.tools.log - error
+System.IO.DirectoryNotFoundException: Impossibile trovare una parte del percorso 'd:\_notes\dipa\sincronizzazioni\collegamento q\testina\'.
+   in System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   in System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   in deepanotes.notes.del_folder(Int32 synch_folder_id, Int32 folder_id) in c:\my\dk\prjs\yournotes\yournotes\App_Code\notes.cs:riga 507
+   in _notes.OnInit(EventArgs e) in c:\my\dk\prjs\yournotes\yournotes\notes.aspx.cs:riga 163
+2023-01-03 14:10:33,428 [12] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:33,429 [12] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:33,429 [12] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:33,430 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:33,430 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:33,430 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:33,431 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:33,431 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:33,431 [12] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:33,432 [12] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:33,432 [12] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:33,433 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:33,433 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:33,433 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:33,434 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:33,434 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:33,434 [12] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:33,434 [12] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:33,434 [12] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:33,434 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:33,435 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:33,435 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:33,435 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:33,435 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:33,435 [12] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:33,436 [12] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:33,449 [12] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 14:10:33,450 [12] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:33,451 [12] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:33,451 [12] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:33,453 [12] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:33,454 [12] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:33,454 [12] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 14:10:33,545 [12] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 14:10:33,546 [12] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1  and t3.stato = 'in_corso' or t3.diff_days <= 7
+2023-01-03 14:10:33,563 [12] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 14:10:33,568 [12] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 14:10:33,569 [12] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 14:10:33,571 [12] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 14:10:33,572 [12] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 14:10:36,405 [6] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:36,406 [6] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:36,407 [6] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:36,407 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:36,408 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:36,408 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:36,409 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:36,411 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:36,411 [6] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:36,412 [6] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:36,413 [6] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:36,413 [6] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:36,413 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:36,413 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:36,414 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:36,414 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:36,414 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:36,414 [6] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:36,414 [6] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:36,426 [6] DEBUG yn_lib.tools.log - SQL: select task_filter_id, filter_title, filter_notes, filter_def, filter_class
+ from dn_tasks_filters order by filter_order
+2023-01-03 14:10:36,428 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:36,429 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:36,430 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:36,431 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:36,432 [6] DEBUG yn_lib.tools.log - SQL: select var_name, var_value 
+          from users_cache where [user_id] = 0 and var_name in ('active-task-filter')
+2023-01-03 14:10:36,432 [6] DEBUG yn_lib.tools.log - SQL: select ft.tp, ft.synch_folder_id, ft.folder_id, ft.parent_id, ft.title
+       , ft.des, ft.http_path, ft.lvl, dbo.folder_path(ft.folder_id) as folder_path
+       , (select top 1 1 from dn_tasks where folder_id = ft.folder_id) as is_task
+      from dbo.fnc_dn_folders(null, null) ft
+      
+      order by ft.synch_folder_id, ft.lvl, ft.title
+2023-01-03 14:10:36,508 [6] DEBUG yn_lib.tools.log - SQL: select f.synch_folder_id, f.file_id, f.folder_id, f.file_name, f.dt_ins , null as found_file
+       from dn_files f
+       where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+        
+	      where ft.synch_folder_id = f.synch_folder_id 
+          and isnull(ft.folder_id, 0) = isnull(f.folder_id, 0))
+2023-01-03 14:10:36,510 [6] DEBUG yn_lib.tools.log - SQL: select t3.*
+      , tst.stato, tst.[order] as stato_order, isnull(tst.class, 'light') as stato_class, isnull(tst.title_plurale, '') as stato_title_plurale, isnull(tst.title_singolare, '') as stato_title_singolare
+      , tp.priorita, tp.[order] as priorita_order, isnull(tp.class, 'light') as priorita_class, isnull(tp.title_plurale, '') as priorita_title_plurale, isnull(tp.title_singolare, '') as priorita_title_singolare
+      , tt.tipo, tt.[order] as tipo_order, isnull(tt.class, 'light') as tipo_class, isnull(tt.title_plurale, '') as tipo_title_plurale, isnull(tt.title_singolare, '') as tipo_title_singolare
+      , ts.stima, ts.[days] as stima_days, isnull(ts.class, 'light') as stima_class, isnull(ts.title_plurale, '') as stima_title_plurale, isnull(ts.title_singolare, '') as stima_title_singolare
+      , (select top 1 1 from dn_tasks_notes where task_id = t3.task_id) as task_notes
+      , (select top 1 1 from vw_task_allegati f2 where f2.task_id = t3.task_id 
+          and not exists (select top 1 1 from dn_files_info where file_name = f2.file_name)) as task_files
+  from (select t2.*, datediff(day, t2.dt_ref, getdate()) as diff_days
+    from (select t.task_id, t.synch_folder_id, isnull(t.folder_id, f.folder_id) as folder_id
+	   , t.file_id, t.title, t.[user], t.stato, t.priorita, t.tipo, t.stima, t.dt_ins, t.dt_upd
+     , t.dt_lwt, (case when isnull(t.dt_ins, 0) > isnull(t.dt_upd, 0) then t.dt_ins else t.dt_upd end) as dt_ref
+	  from dn_tasks t
+    
+	  left join dn_files f on f.file_id = t.file_id
+    where (null is null or (null is not null and t.task_id = null)) ) t2
+    where exists (select top 1 1 from dbo.fnc_dn_folders(null, null) ft 
+	    where  ft.synch_folder_id = t2.synch_folder_id 
+       and isnull(ft.folder_id, 0) = isnull(t2.folder_id, 0))) t3
+   left join dn_task_stato tst on tst.stato = t3.stato
+   left join dn_task_priorita tp on tp.priorita = t3.priorita
+   left join dn_task_tipo tt on tt.tipo = t3.tipo
+   left join dn_task_stima ts on ts.stima = t3.stima
+   where 1 = 1  and t3.stato = 'in_corso' or t3.diff_days <= 7
+2023-01-03 14:10:36,525 [6] DEBUG yn_lib.tools.log - SQL: select title_singolare, stato from dn_task_stato order by [order]
+2023-01-03 14:10:36,527 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, priorita as [value], [order] from dn_task_priorita
+      ) t order by t.[order]
+2023-01-03 14:10:36,528 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [days]
+       union select title_singolare as title, stima as [value], [days] from dn_task_stima 
+       ) t order by t.[days]
+2023-01-03 14:10:36,531 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value], -1 as [order]
+       union select title_singolare as title, tipo as [value], [order] from dn_task_tipo
+       ) t order by t.[order]
+2023-01-03 14:10:36,531 [6] DEBUG yn_lib.tools.log - SQL: select t.title, t.[value]
+      from (select '' as title, '' as [value]
+       union select nome as title, nome as [value] from users
+       ) t order by 2
+2023-01-03 14:10:45,061 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:45,062 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:45,062 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:45,063 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:45,063 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:45,064 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:45,064 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:45,064 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:45,065 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:45,065 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:45,066 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:45,066 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:45,066 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:45,066 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:45,066 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:45,067 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:45,067 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:45,068 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:45,068 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:45,068 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:45,068 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:45,069 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:45,069 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:45,069 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:45,069 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:45,070 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:45,082 [6] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:45,083 [6] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:45,084 [6] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:45,084 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:45,084 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:45,085 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:45,085 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:45,085 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:45,085 [6] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:45,086 [6] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:45,086 [6] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:45,086 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:45,086 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:45,086 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:45,087 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:45,088 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:45,088 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:45,088 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:45,088 [6] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:45,088 [6] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:54,065 [13] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:54,066 [13] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,066 [13] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,067 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,067 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,068 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,068 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,069 [13] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,069 [13] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,069 [13] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,069 [13] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,070 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,070 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,070 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,070 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,071 [13] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,071 [13] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,071 [13] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,071 [13] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,072 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,072 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,073 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,074 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,074 [13] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,074 [13] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,075 [13] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:54,085 [9] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:54,085 [9] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,086 [9] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,086 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,087 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,087 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,087 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,087 [9] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,087 [9] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,088 [9] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,088 [9] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,088 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,089 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,089 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,089 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,089 [9] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,089 [9] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,089 [9] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,090 [9] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,090 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,090 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,090 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,091 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,091 [9] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,091 [9] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,091 [9] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:54,110 [6] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:10:54,111 [6] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,112 [6] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,113 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,113 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,113 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,114 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,114 [6] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,114 [6] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,114 [6] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,115 [6] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,115 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,115 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,115 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,116 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,116 [6] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,116 [6] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,117 [6] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:10:54,117 [6] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:10:54,117 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:10:54,117 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:10:54,117 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:10:54,118 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:10:54,118 [6] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:10:54,118 [6] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:10:54,118 [6] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:10:54,136 [6] DEBUG yn_lib.tools.log - SQL: select u.user_id, u.nome, u.email, u.dt_activate, u.activated, u.dt_upd, u.dt_ins
+ from users u where (isnull(null, 0) = 0 or (isnull(null, 0) <> 0 and u.user_id = null)) order by u.nome
+2023-01-03 14:11:11,883 [10] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:11:11,884 [10] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:11,885 [10] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:11,886 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:11,886 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:11,886 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:11,887 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:11,887 [10] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:11,888 [10] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:11,888 [10] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:11,889 [10] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:11,889 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:11,889 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:11,890 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:11,890 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:11,890 [10] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:11,891 [10] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:11,891 [10] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:11,891 [10] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:11,891 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:11,891 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:11,892 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:11,892 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:11,892 [10] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:11,892 [10] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:11,893 [10] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:11:11,905 [10] DEBUG yn_lib.tools.log - SQL: 
+        delete from users where user_id = 2;
+        delete from users_cache where user_id = 2;
+        delete from users_settings where user_id = 2;
+    
+2023-01-03 14:11:14,005 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:11:14,006 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:14,006 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:14,008 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:14,008 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:14,008 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:14,009 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:14,009 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:14,009 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:14,010 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:14,010 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:14,010 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:14,011 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:14,011 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:14,011 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:14,011 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:14,012 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:14,012 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:14,012 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:14,013 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:14,013 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:14,013 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:14,014 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:14,014 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:14,015 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:14,016 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:11:14,028 [7] DEBUG yn_lib.tools.log - SQL: select u.user_id, u.nome, u.email, u.dt_activate, u.activated, u.dt_upd, u.dt_ins
+ from users u where (isnull(null, 0) = 0 or (isnull(null, 0) <> 0 and u.user_id = null)) order by u.nome
+2023-01-03 14:11:17,339 [12] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:11:17,340 [12] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:17,340 [12] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:17,341 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:17,341 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:17,341 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:17,341 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:17,342 [12] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:17,342 [12] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:17,343 [12] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:17,343 [12] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:17,343 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:17,343 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:17,344 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:17,345 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:17,345 [12] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:17,345 [12] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:17,345 [12] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:17,346 [12] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:17,346 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:17,346 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:17,347 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:17,347 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:17,347 [12] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:17,347 [12] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:17,348 [12] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:11:17,419 [15] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:11:17,419 [15] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:17,420 [15] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:17,420 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:17,420 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:17,421 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:17,421 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:17,421 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:17,421 [15] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:17,421 [15] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:17,421 [15] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:17,422 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:17,422 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:17,422 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:17,423 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:17,424 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:17,424 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:17,424 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:17,424 [15] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:17,425 [15] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:11:27,714 [7] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:11:27,715 [7] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:27,715 [7] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:27,715 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:27,716 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:27,716 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:27,716 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:27,717 [7] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:27,717 [7] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:27,717 [7] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:27,717 [7] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:27,718 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:27,718 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:27,718 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:27,718 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:27,718 [7] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:27,719 [7] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:27,719 [7] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:27,719 [7] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:27,720 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:27,720 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:27,721 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:27,721 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:27,722 [7] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:27,722 [7] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:27,722 [7] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'
+2023-01-03 14:11:27,736 [15] INFO yn_lib.tools.log - reload config docs
+2023-01-03 14:11:27,736 [15] INFO yn_lib.tools.log - load xml config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:27,736 [15] INFO yn_lib.tools.log - load xml config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:27,737 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:27,737 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:27,737 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:27,737 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:27,737 [15] INFO yn_lib.tools.log - load xml config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:27,737 [15] INFO yn_lib.tools.log - load xml config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:27,738 [15] INFO yn_lib.tools.log - load vars doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:27,738 [15] INFO yn_lib.tools.log - load vars doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:27,738 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:27,738 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:27,739 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:27,739 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:27,739 [15] INFO yn_lib.tools.log - load vars doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:27,739 [15] INFO yn_lib.tools.log - load vars doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:27,740 [15] INFO yn_lib.tools.log - load config doc: \defs\blocks.xml - C:\my\dk\prjs\yournotes\yournotes\defs\blocks.xml
+2023-01-03 14:11:27,740 [15] INFO yn_lib.tools.log - load config doc: \defs\cmds.xml - C:\my\dk\prjs\yournotes\yournotes\defs\cmds.xml
+2023-01-03 14:11:27,740 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-base.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-base.xml
+2023-01-03 14:11:27,740 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-conns.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-conns.xml
+2023-01-03 14:11:27,740 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-notes.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-notes.xml
+2023-01-03 14:11:27,740 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-synch.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-synch.xml
+2023-01-03 14:11:27,741 [15] INFO yn_lib.tools.log - load config doc: \defs\lib-vars.xml - C:\my\dk\prjs\yournotes\yournotes\defs\lib-vars.xml
+2023-01-03 14:11:27,741 [15] INFO yn_lib.tools.log - load config doc: \defs\users.xml - C:\my\dk\prjs\yournotes\yournotes\defs\users.xml
+2023-01-03 14:11:27,741 [15] DEBUG yn_lib.tools.log - SQL: open conn 'Data Source=192.168.1.246;Initial Catalog=notes;UID=dipa;PASSWORD=dipa@sport!'

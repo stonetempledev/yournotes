@@ -1,0 +1,4 @@
+﻿! spazzolare sync con il filesystem
+rivisitare e compattare tutto che ci siamo
+funzionalità per gli admin
+notifiche via mail

@@ -8,3 +8,4 @@ C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.csproj.CoreCompileInputs.cache
 C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.csproj.CopyComplete
 C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.dll
 C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.pdb
+C:\my\dk\prjs\yournotes\yn_lib\obj\Debug\yn_lib.csproj.AssemblyReference.cache
